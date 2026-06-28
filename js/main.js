@@ -109,6 +109,8 @@
     addHoverAll('.contact-main-card');
     addHoverAll('.argument-card');
     addHoverAll('.vs-table tbody tr', 'hover');
+    addHoverAll('.blog-card');
+    addHoverAll('.sidebar-related-item');
   }
 
 

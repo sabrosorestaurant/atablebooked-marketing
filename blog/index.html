@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Blog — ATableBooked | Tips voor restauranthouders</title>
+  <meta name="description"
+        content="Praktische tips en inzichten voor Nederlandse restauranthouders. Over reserveringen, no-shows, online aanwezigheid en slim restaurantbeheer.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical"
+        href="https://www.atablebooked.nl/blog/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url"
+        content="https://www.atablebooked.nl/blog/">
+  <meta property="og:title"
+        content="Blog — ATableBooked | Tips voor restauranthouders">
+  <meta property="og:locale" content="nl_NL">
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="../css/design-system.css">
+  <link rel="stylesheet"
+        href="../css/components.css">
+  <link rel="stylesheet"
+        href="../css/homepage.css">
+  <link rel="stylesheet"
+        href="../css/subpages.css">
+
+  <link rel="icon" type="image/svg+xml"
+        href="../img/favicon.svg">
+  <meta name="theme-color" content="#C9A96E">
+</head>
+<body>
+
+  <!-- NAVIGATIE -->
+  <nav class="nav" id="nav" role="navigation"
+       aria-label="Hoofdnavigatie">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo"
+         aria-label="ATableBooked homepage">
+        <span class="nav-logo-dot"
+              aria-hidden="true"></span>
+        ATableBooked
+      </a>
+      <ul class="nav-menu" role="list">
+        <li><a href="/functies/"
+               class="nav-link"
+               data-nav-link>Functies</a></li>
+        <li><a href="/prijzen/"
+               class="nav-link"
+               data-nav-link>Prijzen</a></li>
+        <li><a href="/demo/"
+               class="nav-link"
+               data-nav-link>Demo</a></li>
+        <li><a href="/over/"
+               class="nav-link"
+               data-nav-link>Over ons</a></li>
+        <li><a href="/blog/"
+               class="nav-link active"
+               data-nav-link>Blog</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://app.atablebooked.nl/login"
+           class="nav-login"
+           target="_blank" rel="noopener">
+          Inloggen
+        </a>
+        <a href="https://app.atablebooked.nl/aanmelden"
+           class="btn btn-primary btn-sm">
+          Start gratis
+        </a>
+        <button class="nav-hamburger"
+                id="nav-hamburger"
+                aria-label="Menu openen"
+                aria-expanded="false"
+                aria-controls="nav-mobile">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" id="nav-mobile"
+       role="dialog"
+       aria-label="Mobiel navigatiemenu"
+       aria-modal="true">
+    <a href="/functies/" class="nav-mobile-link"
+       data-mobile-link>Functies</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/prijzen/" class="nav-mobile-link"
+       data-mobile-link>Prijzen</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/demo/" class="nav-mobile-link"
+       data-mobile-link>Demo</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/over/" class="nav-mobile-link"
+       data-mobile-link>Over ons</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/blog/" class="nav-mobile-link"
+       data-mobile-link>Blog</a>
+    <div class="nav-mobile-contact">
+      <a href="https://app.atablebooked.nl/login"
+         class="btn btn-secondary"
+         target="_blank" rel="noopener">
+        Inloggen
+      </a>
+      <a href="https://app.atablebooked.nl/aanmelden"
+         class="btn btn-primary"
+         data-mobile-link>Start gratis</a>
+    </div>
+  </div>
+
+
+  <!-- HERO -->
+  <section class="subpage-hero"
+           aria-label="Blog ATableBooked">
+    <div class="container">
+      <div class="subpage-hero-inner">
+        <nav aria-label="Breadcrumb">
+          <div class="breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep"
+                  aria-hidden="true">/</span>
+            <span class="breadcrumb-current">
+              Blog
+            </span>
+          </div>
+        </nav>
+        <p class="label fade-in">
+          Kennis voor restauranthouders
+        </p>
+        <div class="divider centered fade-in"
+             aria-hidden="true"></div>
+        <h1 class="display-2 fade-up">
+          Praktische tips voor<br>
+          jouw restaurant
+        </h1>
+        <p class="lead fade-up stagger-1">
+          Geen marketingpraat. Geen fluff.
+          Gewoon eerlijke inzichten over
+          reserveringen, no-shows en slim
+          restaurantbeheer &mdash; van
+          iemand die er zelf middenin staat.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG ARTIKELEN -->
+  <section class="section bg-white"
+           aria-label="Alle blog artikelen">
+    <div class="container">
+
+      <div class="blog-grid">
+
+        <!-- Artikel 1 -->
+        <a href="/blog/no-shows-verminderen/"
+           class="blog-card"
+           aria-label="Lees artikel: No-shows verminderen in je restaurant">
+          <div class="blog-card-image"
+               aria-hidden="true">
+            <svg viewBox="0 0 400 225"
+                 xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="xMidYMid meet"
+                 width="100%">
+              <rect width="400" height="225"
+                    fill="#EEE9E2"/>
+              <rect x="60" y="40" width="280"
+                    height="145" rx="12"
+                    fill="white"
+                    stroke="#E0D9CE"
+                    stroke-width="1"/>
+              <!-- Kalender icoon groot -->
+              <rect x="140" y="55" width="120"
+                    height="115" rx="8"
+                    fill="#1A1816" opacity="0.04"/>
+              <rect x="140" y="55" width="120"
+                    height="28" rx="8"
+                    fill="#C9A96E" opacity="0.80"/>
+              <rect x="148" y="63" width="60"
+                    height="8" rx="4" fill="white"/>
+              <!-- Vakjes kalender -->
+              <rect x="148" y="95" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+              <rect x="172" y="95" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+              <rect x="196" y="95" width="16"
+                    height="16" rx="3"
+                    fill="#C9A96E" opacity="0.40"/>
+              <rect x="220" y="95" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+              <rect x="148" y="118" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+              <rect x="172" y="118" width="16"
+                    height="16" rx="3"
+                    fill="#C9A96E"/>
+              <rect x="196" y="118" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+              <rect x="220" y="118" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+              <rect x="148" y="141" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+              <rect x="172" y="141" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+              <rect x="196" y="141" width="16"
+                    height="16" rx="3"
+                    fill="#C1121F" opacity="0.20"/>
+              <rect x="220" y="141" width="16"
+                    height="16" rx="3"
+                    fill="#EEE9E2"/>
+            </svg>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="blog-card-category">
+                No-shows
+              </span>
+              <span class="blog-card-readtime">
+                5 min lezen
+              </span>
+            </div>
+            <h2 class="blog-card-title">
+              No-shows verminderen in je
+              restaurant: 7 bewezen methoden
+            </h2>
+            <p class="blog-card-excerpt">
+              Gemiddeld 15 tot 20% van alle
+              restaurantreserveringen komt
+              niet opdagen. We laten je zien
+              hoe je dit terugdringt zonder
+              je gasten voor het hoofd te stoten.
+            </p>
+            <div class="blog-card-footer">
+              <span class="blog-card-author">
+                Door Sabroso
+              </span>
+              <span class="blog-card-date">
+                Juni 2026
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Artikel 2 -->
+        <a href="/blog/reserveringssysteem-kiezen/"
+           class="blog-card"
+           aria-label="Lees artikel: Reserveringssysteem kiezen">
+          <div class="blog-card-image"
+               aria-hidden="true">
+            <svg viewBox="0 0 400 225"
+                 xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="xMidYMid meet"
+                 width="100%">
+              <rect width="400" height="225"
+                    fill="#1A1816"/>
+              <!-- Dashboard mockup donker -->
+              <rect x="40" y="30" width="320"
+                    height="165" rx="12"
+                    fill="rgba(255,255,255,0.05)"
+                    stroke="rgba(201,169,110,0.20)"
+                    stroke-width="1"/>
+              <!-- Vergelijkingstabel -->
+              <rect x="56" y="46" width="288"
+                    height="24" rx="6"
+                    fill="rgba(201,169,110,0.15)"/>
+              <rect x="64" y="53" width="60"
+                    height="8" rx="4"
+                    fill="#C9A96E" opacity="0.60"/>
+              <rect x="180" y="53" width="40"
+                    height="8" rx="4"
+                    fill="rgba(255,255,255,0.30)"/>
+              <rect x="264" y="53" width="40"
+                    height="8" rx="4"
+                    fill="rgba(255,255,255,0.30)"/>
+              <!-- Rijen -->
+              <rect x="56" y="78" width="288"
+                    height="1"
+                    fill="rgba(255,255,255,0.06)"/>
+              <rect x="64" y="87" width="80"
+                    height="6" rx="3"
+                    fill="rgba(255,255,255,0.40)"/>
+              <rect x="192" y="85" width="16"
+                    height="10" rx="3"
+                    fill="#C9A96E"/>
+              <rect x="276" y="87" width="24"
+                    height="6" rx="3"
+                    fill="rgba(255,255,255,0.20)"/>
+              <rect x="56" y="105" width="288"
+                    height="1"
+                    fill="rgba(255,255,255,0.06)"/>
+              <rect x="64" y="114" width="90"
+                    height="6" rx="3"
+                    fill="rgba(255,255,255,0.40)"/>
+              <rect x="192" y="112" width="16"
+                    height="10" rx="3"
+                    fill="#C9A96E"/>
+              <rect x="276" y="112" width="16"
+                    height="10" rx="3"
+                    fill="#C9A96E"/>
+              <rect x="56" y="132" width="288"
+                    height="1"
+                    fill="rgba(255,255,255,0.06)"/>
+              <rect x="64" y="141" width="70"
+                    height="6" rx="3"
+                    fill="rgba(255,255,255,0.40)"/>
+              <rect x="184" y="138" width="32"
+                    height="12" rx="6"
+                    fill="#C9A96E"/>
+              <rect x="269" y="140" width="22"
+                    height="8" rx="4"
+                    fill="rgba(255,255,255,0.15)"/>
+              <rect x="56" y="158" width="288"
+                    height="1"
+                    fill="rgba(255,255,255,0.06)"/>
+              <rect x="64" y="167" width="100"
+                    height="6" rx="3"
+                    fill="rgba(255,255,255,0.40)"/>
+              <rect x="192" y="165" width="16"
+                    height="10" rx="3"
+                    fill="#C9A96E"/>
+              <rect x="280" y="167" width="24"
+                    height="6" rx="3"
+                    fill="rgba(255,255,255,0.20)"/>
+            </svg>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="blog-card-category">
+                Software kiezen
+              </span>
+              <span class="blog-card-readtime">
+                7 min lezen
+              </span>
+            </div>
+            <h2 class="blog-card-title">
+              Reserveringssysteem voor je
+              restaurant kiezen: waar let
+              je op?
+            </h2>
+            <p class="blog-card-excerpt">
+              Er zijn tientallen reserveringssystemen
+              voor restaurants. Maar welke past
+              bij jouw zaak? We leggen uit waar
+              je op moet letten &mdash; zonder
+              verborgen agenda.
+            </p>
+            <div class="blog-card-footer">
+              <span class="blog-card-author">
+                Door Sabroso
+              </span>
+              <span class="blog-card-date">
+                Juni 2026
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Artikel 3 -->
+        <a href="/blog/online-reserveren-restaurant/"
+           class="blog-card"
+           aria-label="Lees artikel: Online reserveren op je eigen website">
+          <div class="blog-card-image"
+               aria-hidden="true">
+            <svg viewBox="0 0 400 225"
+                 xmlns="http://www.w3.org/2000/svg"
+                 preserveAspectRatio="xMidYMid meet"
+                 width="100%">
+              <rect width="400" height="225"
+                    fill="#EEE9E2"/>
+              <!-- Website mockup -->
+              <rect x="50" y="25" width="300"
+                    height="175" rx="12"
+                    fill="white"
+                    stroke="#E0D9CE"
+                    stroke-width="1"/>
+              <!-- Browser balk -->
+              <rect x="50" y="25" width="300"
+                    height="28" rx="12"
+                    fill="#1A1816"/>
+              <rect x="50" y="37" width="300"
+                    height="16"
+                    fill="#1A1816"/>
+              <circle cx="66" cy="39" r="5"
+                      fill="#FF5F56"/>
+              <circle cx="82" cy="39" r="5"
+                      fill="#FFBD2E"/>
+              <circle cx="98" cy="39" r="5"
+                      fill="#27C93F"/>
+              <rect x="120" y="33" width="140"
+                    height="12" rx="6"
+                    fill="rgba(255,255,255,0.15)"/>
+              <!-- Widget content -->
+              <rect x="70" y="68" width="120"
+                    height="8" rx="4"
+                    fill="#1A1816" opacity="0.60"/>
+              <rect x="70" y="84" width="260"
+                    height="32" rx="6"
+                    fill="#EEE9E2"/>
+              <rect x="78" y="95" width="60"
+                    height="8" rx="4"
+                    fill="#1A1816" opacity="0.30"/>
+              <rect x="70" y="126" width="260"
+                    height="32" rx="6"
+                    fill="#EEE9E2"/>
+              <rect x="78" y="137" width="50"
+                    height="8" rx="4"
+                    fill="#1A1816" opacity="0.30"/>
+              <rect x="120" y="168" width="160"
+                    height="22" rx="11"
+                    fill="#C9A96E"/>
+              <rect x="152" y="175" width="96"
+                    height="8" rx="4"
+                    fill="white"/>
+            </svg>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="blog-card-category">
+                Online reserveren
+              </span>
+              <span class="blog-card-readtime">
+                6 min lezen
+              </span>
+            </div>
+            <h2 class="blog-card-title">
+              Online reserveren op je eigen
+              website: zo doe je het slim
+            </h2>
+            <p class="blog-card-excerpt">
+              Steeds meer gasten willen online
+              reserveren &mdash; ook buiten
+              openingstijden. Hoe zet je een
+              reserveringsknop op je website
+              zonder afhankelijk te worden
+              van TheFork of IENS?
+            </p>
+            <div class="blog-card-footer">
+              <span class="blog-card-author">
+                Door Sabroso
+              </span>
+              <span class="blog-card-date">
+                Juni 2026
+              </span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+      <!-- einde blog-grid -->
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span style="width:8px;height:8px;
+                         border-radius:50%;
+                         background:var(--color-gold);
+                         display:inline-block;
+                         flex-shrink:0;"
+                  aria-hidden="true"></span>
+            ATableBooked
+          </div>
+          <p>Het slimste reserveringssysteem
+          voor Nederlandse restaurants.</p>
+          <div class="footer-social"
+               aria-label="Social media">
+            <a href="https://linkedin.com/company/atablebooked"
+               class="footer-social-link"
+               target="_blank" rel="noopener"
+               aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4
+                         v-7a2 2 0 0 0-2-2 2 2 0 0
+                         0-2 2v7h-4v-7a6 6 0 0 1
+                         6-6z"></path>
+                <rect x="2" y="9" width="4"
+                      height="12"></rect>
+                <circle cx="4" cy="4" r="2">
+                </circle>
+              </svg>
+            </a>
+            <a href="https://instagram.com/atablebooked"
+               class="footer-social-link"
+               target="_blank" rel="noopener"
+               aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <rect x="2" y="2" width="20"
+                      height="20" rx="5" ry="5">
+                </rect>
+                <path d="M16 11.37A4 4 0 1 1
+                         12.63 8 4 4 0 0 1
+                         16 11.37z"></path>
+                <line x1="17.5" y1="6.5"
+                      x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <nav aria-label="Product navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/functies/"
+                     class="footer-link">
+                     Functies</a></li>
+              <li><a href="/prijzen/"
+                     class="footer-link">
+                     Prijzen</a></li>
+              <li><a href="/demo/"
+                     class="footer-link">
+                     Demo aanvragen</a></li>
+              <li><a href="https://app.atablebooked.nl/aanmelden"
+                     class="footer-link">
+                     Gratis starten</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Bedrijf</div>
+          <nav aria-label="Bedrijf navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/over/"
+                     class="footer-link">
+                     Over ons</a></li>
+              <li><a href="/blog/"
+                     class="footer-link">
+                     Blog</a></li>
+              <li><a href="mailto:hallo@atablebooked.nl"
+                     class="footer-link">
+                     Contact</a></li>
+              <li><a href="/privacy/"
+                     class="footer-link">
+                     Privacybeleid</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">
+            Vergelijkingen
+          </div>
+          <nav aria-label="Vergelijkingen">
+            <ul class="footer-links" role="list">
+              <li><a href="/vergelijking/vs-thefork/"
+                     class="footer-link">
+                     vs TheFork</a></li>
+              <li><a href="/vergelijking/vs-zenchef/"
+                     class="footer-link">
+                     vs Zenchef</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          &copy; 2026 ATableBooked
+          &nbsp;&middot;&nbsp;
+          Gemaakt met &#10084;&#65039; in
+          Nederland &#127475;&#127473;
+        </div>
+        <div class="footer-bottom-right">
+          <a href="/privacy/"
+             class="footer-legal-link">
+            Privacybeleid
+          </a>
+          <a href="/algemene-voorwaarden/"
+             class="footer-legal-link">
+            Algemene voorwaarden
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/pricing.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+</html>

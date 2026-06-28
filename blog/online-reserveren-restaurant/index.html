@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Online reserveren op je eigen website: zo doe je het slim</title>
+  <meta name="description"
+        content="Gasten willen 24/7 online reserveren. Hoe zet je een reserveringsknop op je website zonder afhankelijk te worden van TheFork of IENS?">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical"
+        href="https://www.atablebooked.nl/blog/online-reserveren-restaurant/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url"
+        content="https://www.atablebooked.nl/blog/online-reserveren-restaurant/">
+  <meta property="og:title"
+        content="Online reserveren op je eigen website: zo doe je het slim">
+  <meta property="og:locale" content="nl_NL">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Online reserveren op je eigen website: zo doe je het slim",
+    "description": "Gasten willen 24/7 online reserveren. Hoe zet je een reserveringsknop op je website zonder afhankelijk te worden van TheFork of IENS?",
+    "url": "https://www.atablebooked.nl/blog/online-reserveren-restaurant/",
+    "datePublished": "2026-06-28",
+    "dateModified": "2026-06-28",
+    "inLanguage": "nl-NL",
+    "author": {
+      "@type": "Person",
+      "name": "Sabroso",
+      "jobTitle": "Oprichter ATableBooked & eigenaar Restaurant Sabroso"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ATableBooked",
+      "url": "https://www.atablebooked.nl"
+    }
+  }
+  </script>
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="../../css/design-system.css">
+  <link rel="stylesheet"
+        href="../../css/components.css">
+  <link rel="stylesheet"
+        href="../../css/homepage.css">
+  <link rel="stylesheet"
+        href="../../css/subpages.css">
+
+  <link rel="icon" type="image/svg+xml"
+        href="../../img/favicon.svg">
+  <meta name="theme-color" content="#C9A96E">
+</head>
+<body>
+
+  <!-- NAVIGATIE -->
+  <nav class="nav" id="nav" role="navigation"
+       aria-label="Hoofdnavigatie">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo"
+         aria-label="ATableBooked homepage">
+        <span class="nav-logo-dot"
+              aria-hidden="true"></span>
+        ATableBooked
+      </a>
+      <ul class="nav-menu" role="list">
+        <li><a href="/functies/"
+               class="nav-link"
+               data-nav-link>Functies</a></li>
+        <li><a href="/prijzen/"
+               class="nav-link"
+               data-nav-link>Prijzen</a></li>
+        <li><a href="/demo/"
+               class="nav-link"
+               data-nav-link>Demo</a></li>
+        <li><a href="/over/"
+               class="nav-link"
+               data-nav-link>Over ons</a></li>
+        <li><a href="/blog/"
+               class="nav-link active"
+               data-nav-link>Blog</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://app.atablebooked.nl/login"
+           class="nav-login"
+           target="_blank" rel="noopener">
+          Inloggen
+        </a>
+        <a href="https://app.atablebooked.nl/aanmelden"
+           class="btn btn-primary btn-sm">
+          Start gratis
+        </a>
+        <button class="nav-hamburger"
+                id="nav-hamburger"
+                aria-label="Menu openen"
+                aria-expanded="false"
+                aria-controls="nav-mobile">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" id="nav-mobile"
+       role="dialog"
+       aria-label="Mobiel navigatiemenu"
+       aria-modal="true">
+    <a href="/functies/" class="nav-mobile-link"
+       data-mobile-link>Functies</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/prijzen/" class="nav-mobile-link"
+       data-mobile-link>Prijzen</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/demo/" class="nav-mobile-link"
+       data-mobile-link>Demo</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/over/" class="nav-mobile-link"
+       data-mobile-link>Over ons</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/blog/" class="nav-mobile-link"
+       data-mobile-link>Blog</a>
+    <div class="nav-mobile-contact">
+      <a href="https://app.atablebooked.nl/login"
+         class="btn btn-secondary"
+         target="_blank" rel="noopener">
+        Inloggen
+      </a>
+      <a href="https://app.atablebooked.nl/aanmelden"
+         class="btn btn-primary"
+         data-mobile-link>Start gratis</a>
+    </div>
+  </div>
+
+
+  <!-- ARTIKEL HERO -->
+  <section class="subpage-hero"
+           aria-label="Artikel header">
+    <div class="container">
+      <div class="subpage-hero-inner">
+        <nav aria-label="Breadcrumb">
+          <div class="breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">/</span>
+            <a href="/blog/">Blog</a>
+            <span class="breadcrumb-sep">/</span>
+            <span class="breadcrumb-current">
+              Online reserveren
+            </span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ARTIKEL CONTENT -->
+  <section class="section bg-white"
+           aria-label="Artikel inhoud">
+    <div class="container">
+      <div class="article-layout">
+
+        <!-- Hoofd content -->
+        <main class="article-content">
+
+          <header class="article-header">
+
+            <div class="article-meta">
+              <span class="article-category">
+                Online reserveren
+              </span>
+              <span class="article-date">
+                28 juni 2026
+              </span>
+              <span class="article-readtime">
+                <svg width="14" height="14"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     aria-hidden="true">
+                  <circle cx="12" cy="12" r="10">
+                  </circle>
+                  <polyline points="12 6 12 12 16 14">
+                  </polyline>
+                </svg>
+                6 minuten lezen
+              </span>
+            </div>
+
+            <h1 class="article-title">
+              Online reserveren op je eigen
+              website: zo doe je het slim
+            </h1>
+
+            <p class="article-intro">
+              Meer dan 60% van de restaurantgasten
+              wil online kunnen reserveren. Niet via
+              een app van een platform, maar gewoon
+              via jouw website. Hoe regel je dat
+              zonder commissie te betalen per boeking?
+            </p>
+
+            <div class="article-author-bar">
+              <div class="article-author-avatar"
+                   aria-hidden="true">
+                <svg width="20" height="20"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="1.75"
+                     stroke-linecap="round"
+                     stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4
+                           H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4">
+                  </circle>
+                </svg>
+              </div>
+              <div>
+                <div class="article-author-name">
+                  Sabroso
+                </div>
+                <div class="article-author-role">
+                  Oprichter ATableBooked &middot;
+                  Eigenaar Restaurant Sabroso,
+                  Huissen
+                </div>
+              </div>
+            </div>
+
+          </header>
+
+          <div class="article-body">
+
+            <p>
+              Vroeger belde een gast om te reserveren.
+              Nu pakt diezelfde gast &apos;s avonds op
+              de bank de telefoon erbij en wil binnen
+              dertig seconden een tafel boeken &mdash;
+              zonder te bellen, zonder te wachten tot
+              je open bent. Wie dat niet faciliteert,
+              loopt boekingen mis. De goede nieuws: je
+              kunt online reserveren volledig in eigen
+              hand houden.
+            </p>
+
+            <h2>Waarom je eigen website, niet TheFork?</h2>
+
+            <p>
+              Grote platforms zoals TheFork of IENS
+              hebben een duidelijke aantrekkingskracht:
+              ze brengen nieuwe gasten die jou misschien
+              anders niet hadden gevonden. Dat is een
+              eerlijk voordeel, en voor sommige
+              restaurants weegt dat zwaar.
+            </p>
+
+            <p>
+              Maar er zijn ook belangrijke voordelen aan
+              reserveringen via je eigen website:
+            </p>
+
+            <ul>
+              <li>
+                <strong>Geen commissie</strong> per
+                boeking &mdash; je houdt je volledige marge.
+              </li>
+              <li>
+                <strong>Je eigen data</strong> &mdash; namen,
+                e-mailadressen en voorkeuren komen in jouw
+                database, niet die van het platform.
+              </li>
+              <li>
+                <strong>Directe gastrelatie</strong> &mdash;
+                je communiceert rechtstreeks met je gast,
+                zonder tussenpartij.
+              </li>
+              <li>
+                <strong>Geen afhankelijkheid</strong> van
+                een platformalgoritme dat bepaalt hoe
+                zichtbaar je bent.
+              </li>
+            </ul>
+
+            <p>
+              De slimste aanpak voor veel restaurants is
+              een combinatie: gebruik platforms gericht
+              om nieuwe gasten te werven, maar zorg dat
+              je vaste gasten en herhaalbezoek via je
+              eigen website lopen.
+            </p>
+
+            <h2>Wat is een reserveringswidget?</h2>
+
+            <p>
+              Een reserveringswidget is een stukje code
+              dat je op je eigen website plaatst. Voor
+              de bezoeker ziet het eruit als een nette
+              reserveringsknop of een boekingsformulier
+              dat naadloos in je site past. Achter de
+              schermen regelt het systeem de beschikbaarheid,
+              de bevestiging en de communicatie.
+            </p>
+
+            <p>
+              Er zijn doorgaans drie manieren om een widget
+              te tonen: <strong>inline</strong> (het formulier
+              staat direct op de pagina), als
+              <strong>popup</strong> (een venster dat opent
+              bij een klik) of als <strong>knop</strong> die
+              de reserveringsstap opent. Welke je kiest, hangt
+              af van je website en je voorkeur.
+            </p>
+
+            <h2>Werkt het op elke website?</h2>
+
+            <p>
+              Ja. Of je website nu in WordPress, Wix of
+              Squarespace is gebouwd, of door een webbureau
+              op maat is gemaakt &mdash; een widget werkt
+              overal. Je hebt geen technische kennis nodig.
+              In de praktijk komt het neer op: een stukje
+              code kopi&euml;ren en op de juiste plek op je
+              pagina plakken.
+            </p>
+
+            <p>
+              Lukt dat zelf niet? Dan kan je websitebouwer
+              het in vijf minuten voor je doen. Het is geen
+              project van weken, maar een klusje van een
+              middag &mdash; vaak korter.
+            </p>
+
+            <h2>Wat ziet de gast?</h2>
+
+            <p>
+              De flow voor de gast is bewust simpel
+              gehouden. Een goede widget leidt de bezoeker
+              soepel door een paar stappen:
+            </p>
+
+            <ol>
+              <li>De gast kiest een datum.</li>
+              <li>De gast geeft het aantal personen op.</li>
+              <li>De gast kiest een beschikbaar tijdslot.</li>
+              <li>
+                De gast vult zijn gegevens in en bevestigt.
+              </li>
+            </ol>
+
+            <p>
+              Direct daarna ontvangt de gast een
+              automatische bevestigingsmail. Geen
+              telefoontje nodig, geen wachten op een
+              reactie &mdash; meteen duidelijkheid. Dat
+              voelt voor de gast professioneel en betrouwbaar.
+            </p>
+
+            <div class="article-pullquote">
+              <p>
+                &ldquo;Elke reservering die via jouw eigen
+                website binnenkomt, is een relatie die jij
+                bezit. Niet het platform.&rdquo;
+              </p>
+            </div>
+
+            <h2>24/7 reserveringen aannemen</h2>
+
+            <p>
+              Dit is misschien wel het grootste voordeel.
+              Een widget op je website neemt dag en nacht
+              reserveringen aan. Gasten boeken op
+              maandagochtend tijdens hun koffie, of op
+              zaterdagnacht net na een leuk idee voor
+              volgende week.
+            </p>
+
+            <p>
+              Zonder online reserveren mis je al die
+              boekingen die buiten je openingstijden of
+              telefoontijden vallen. Met een widget vang
+              je ze allemaal &mdash; automatisch, zonder
+              dat jij of je personeel iets hoeft te doen.
+            </p>
+
+            <h2>
+              Hoe koppel je het aan je bestaande website?
+            </h2>
+
+            <p>
+              In de praktijk is het opzetten van online
+              reserveren een kwestie van vijf stappen:
+            </p>
+
+            <ol>
+              <li>Maak een account aan bij je systeem.</li>
+              <li>
+                Stel je openingstijden en capaciteit in
+                (hoeveel tafels, hoeveel gasten per tijdslot).
+              </li>
+              <li>Kopieer de widget-code uit je dashboard.</li>
+              <li>
+                Plak de code op de juiste pagina van je
+                website.
+              </li>
+              <li>
+                Test zelf een reservering om te zien of
+                alles werkt.
+              </li>
+            </ol>
+
+            <p>
+              Meer is het niet. Bij
+              <a href="/functies/#widget">ATableBooked</a>
+              genereer je de embed-code met een paar klikken
+              en kun je kiezen tussen inline, popup of een
+              knop &mdash; net wat het beste bij je site past.
+            </p>
+
+            <h2>Wat kost het?</h2>
+
+            <p>
+              Eerlijk antwoord: bij ATableBooked start je
+              vanaf &euro;49 per maand met het Start-pakket.
+              Geen commissie per boeking, geen verrassingen.
+              Je vaste maandprijs dekt onbeperkt online
+              reserveren via je eigen website (vanaf het
+              Pro-pakket onbeperkt). Bekijk alle opties op
+              de <a href="/prijzen/">prijzenpagina</a>.
+            </p>
+
+            <p>
+              Vergelijk dat eens met een commissiemodel:
+              betaal je per gast, dan lopen je kosten op
+              naarmate je het drukker krijgt. Bij een vaste
+              prijs weet je vooraf precies waar je aan toe
+              bent &mdash; hoe succesvol je ook wordt.
+            </p>
+
+            <div class="article-factbox">
+              <div class="article-factbox-title">
+                Stel jezelf deze 3 vragen
+              </div>
+              <p>
+                1. Wil ik mijn eigen gastendatabase opbouwen,
+                of die van een platform?<br>
+                2. Betaal ik liever een vaste prijs of een
+                commissie die meegroeit met mijn drukte?<br>
+                3. Is mijn website klaar om bezoekers ook
+                echt te laten reserveren, of stuur ik ze
+                nu nog weg naar een telefoonnummer?
+              </p>
+            </div>
+
+            <p>
+              Beantwoord je deze vragen eerlijk, dan weet
+              je vrijwel zeker of een reserveringswidget op
+              je eigen website de juiste stap is. Voor de
+              meeste Nederlandse restaurants is het antwoord
+              een volmondig ja.
+            </p>
+
+          </div>
+          <!-- einde article-body -->
+
+          <footer class="article-footer">
+            <div class="article-tags"
+                 aria-label="Artikelcategorie&euml;n">
+              <span class="article-tag">
+                Online reserveren
+              </span>
+              <span class="article-tag">
+                Widget
+              </span>
+              <span class="article-tag">
+                Restaurant tips
+              </span>
+              <span class="article-tag">
+                Horeca
+              </span>
+            </div>
+
+            <div class="subpage-nav-links">
+              <a href="/blog/reserveringssysteem-kiezen/"
+                 class="subpage-nav-link">
+                <svg width="16" height="16"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     aria-hidden="true">
+                  <line x1="19" y1="12"
+                        x2="5" y2="12"></line>
+                  <polyline
+                    points="12 19 5 12 12 5">
+                  </polyline>
+                </svg>
+                Vorig artikel
+              </a>
+              <a href="/blog/"
+                 class="subpage-nav-link">
+                Terug naar blog
+                <svg width="16" height="16"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     aria-hidden="true">
+                  <line x1="5" y1="12"
+                        x2="19" y2="12"></line>
+                  <polyline
+                    points="12 5 19 12 12 19">
+                  </polyline>
+                </svg>
+              </a>
+            </div>
+          </footer>
+
+        </main>
+        <!-- einde article-content -->
+
+        <!-- Sidebar -->
+        <aside class="article-sidebar"
+               aria-label="Sidebar">
+
+          <div class="sidebar-cta">
+            <h3>Zelf online reserveren?</h3>
+            <p>
+              Zet in 10 minuten een
+              reserveringswidget op je eigen
+              website. Geen commissie, geen gedoe.
+            </p>
+            <a href="https://app.atablebooked.nl/aanmelden"
+               class="btn btn-primary"
+               style="width:100%;
+                      justify-content:center;
+                      position:relative;
+                      z-index:1;">
+              Start gratis
+            </a>
+          </div>
+
+          <div class="sidebar-related">
+            <div class="sidebar-related-title">
+              Meer artikelen
+            </div>
+            <a href="/blog/no-shows-verminderen/"
+               class="sidebar-related-item">
+              <span class="sidebar-related-item-title">
+                No-shows verminderen: 7 bewezen
+                methoden
+              </span>
+              <span class="sidebar-related-item-date">
+                Juni 2026 &middot; 5 min
+              </span>
+            </a>
+            <a href="/blog/reserveringssysteem-kiezen/"
+               class="sidebar-related-item">
+              <span class="sidebar-related-item-title">
+                Reserveringssysteem kiezen:
+                waar let je op?
+              </span>
+              <span class="sidebar-related-item-date">
+                Juni 2026 &middot; 7 min
+              </span>
+            </a>
+          </div>
+
+        </aside>
+
+      </div>
+      <!-- einde article-layout -->
+
+    </div>
+  </section>
+
+
+  <!-- CTA SECTIE -->
+  <section class="section bg-beige"
+           aria-label="Starten met ATableBooked">
+    <div class="container">
+      <div class="subpage-cta-banner fade-up">
+        <span class="badge badge-gold"
+              style="margin-bottom:var(--space-5);
+                     display:inline-flex;">
+          30 DAGEN GRATIS &nbsp;&middot;&nbsp;
+          GEEN CREDITCARD
+        </span>
+        <h2 class="display-2">
+          Zet vandaag je widget online
+        </h2>
+        <p>
+          Eigen website, eigen gasten, geen
+          commissie. Probeer ATableBooked 30
+          dagen gratis en neem 24/7 reserveringen
+          aan.
+        </p>
+        <div class="btn-group centered">
+          <a href="https://app.atablebooked.nl/aanmelden"
+             class="btn btn-primary btn-lg">
+            Start nu gratis
+          </a>
+          <a href="/functies/"
+             class="btn btn-outline-white btn-lg">
+            Bekijk alle functies
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span style="width:8px;height:8px;
+                         border-radius:50%;
+                         background:var(--color-gold);
+                         display:inline-block;
+                         flex-shrink:0;"
+                  aria-hidden="true"></span>
+            ATableBooked
+          </div>
+          <p>Het slimste reserveringssysteem
+          voor Nederlandse restaurants.</p>
+          <div class="footer-social"
+               aria-label="Social media">
+            <a href="https://linkedin.com/company/atablebooked"
+               class="footer-social-link"
+               target="_blank" rel="noopener"
+               aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4
+                         v-7a2 2 0 0 0-2-2 2 2 0 0
+                         0-2 2v7h-4v-7a6 6 0 0 1
+                         6-6z"></path>
+                <rect x="2" y="9" width="4"
+                      height="12"></rect>
+                <circle cx="4" cy="4" r="2">
+                </circle>
+              </svg>
+            </a>
+            <a href="https://instagram.com/atablebooked"
+               class="footer-social-link"
+               target="_blank" rel="noopener"
+               aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <rect x="2" y="2" width="20"
+                      height="20" rx="5" ry="5">
+                </rect>
+                <path d="M16 11.37A4 4 0 1 1
+                         12.63 8 4 4 0 0 1
+                         16 11.37z"></path>
+                <line x1="17.5" y1="6.5"
+                      x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <nav aria-label="Product navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/functies/"
+                     class="footer-link">
+                     Functies</a></li>
+              <li><a href="/prijzen/"
+                     class="footer-link">
+                     Prijzen</a></li>
+              <li><a href="/demo/"
+                     class="footer-link">
+                     Demo aanvragen</a></li>
+              <li><a href="https://app.atablebooked.nl/aanmelden"
+                     class="footer-link">
+                     Gratis starten</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Bedrijf</div>
+          <nav aria-label="Bedrijf navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/over/"
+                     class="footer-link">
+                     Over ons</a></li>
+              <li><a href="/blog/"
+                     class="footer-link">
+                     Blog</a></li>
+              <li><a href="mailto:hallo@atablebooked.nl"
+                     class="footer-link">
+                     Contact</a></li>
+              <li><a href="/privacy/"
+                     class="footer-link">
+                     Privacybeleid</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">
+            Vergelijkingen
+          </div>
+          <nav aria-label="Vergelijkingen">
+            <ul class="footer-links" role="list">
+              <li><a href="/vergelijking/vs-thefork/"
+                     class="footer-link">
+                     vs TheFork</a></li>
+              <li><a href="/vergelijking/vs-zenchef/"
+                     class="footer-link">
+                     vs Zenchef</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          &copy; 2026 ATableBooked
+          &nbsp;&middot;&nbsp;
+          Gemaakt met &#10084;&#65039; in
+          Nederland &#127475;&#127473;
+        </div>
+        <div class="footer-bottom-right">
+          <a href="/privacy/"
+             class="footer-legal-link">
+            Privacybeleid
+          </a>
+          <a href="/algemene-voorwaarden/"
+             class="footer-legal-link">
+            Algemene voorwaarden
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../js/pricing.js"></script>
+  <script src="../../js/main.js"></script>
+
+</body>
+</html>

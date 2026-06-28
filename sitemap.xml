@@ -2,128 +2,144 @@
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage NL -->
   <url>
     <loc>https://www.atablebooked.nl/</loc>
-    <xhtml:link
-      rel="alternate"
+    <xhtml:link rel="alternate"
       hreflang="nl"
       href="https://www.atablebooked.nl/"/>
-    <xhtml:link
-      rel="alternate"
+    <xhtml:link rel="alternate"
       hreflang="en"
       href="https://www.atablebooked.nl/en/"/>
-    <xhtml:link
-      rel="alternate"
+    <xhtml:link rel="alternate"
       hreflang="de"
       href="https://www.atablebooked.nl/de/"/>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Hoofdpagina's NL -->
   <url>
     <loc>https://www.atablebooked.nl/functies/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/prijzen/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/demo/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/over/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/contact/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
+
+  <!-- Vergelijkingspagina's -->
   <url>
     <loc>https://www.atablebooked.nl/vergelijking/vs-thefork/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/vergelijking/vs-zenchef/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Blog -->
   <url>
     <loc>https://www.atablebooked.nl/blog/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/blog/no-shows-verminderen/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/blog/reserveringssysteem-kiezen/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/blog/online-reserveren-restaurant/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <!-- Taalversies -->
   <url>
     <loc>https://www.atablebooked.nl/en/</loc>
-    <xhtml:link
-      rel="alternate"
+    <xhtml:link rel="alternate"
       hreflang="en"
       href="https://www.atablebooked.nl/en/"/>
-    <xhtml:link
-      rel="alternate"
+    <xhtml:link rel="alternate"
       hreflang="nl"
       href="https://www.atablebooked.nl/"/>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/de/</loc>
-    <xhtml:link
-      rel="alternate"
+    <xhtml:link rel="alternate"
       hreflang="de"
       href="https://www.atablebooked.nl/de/"/>
-    <xhtml:link
-      rel="alternate"
+    <xhtml:link rel="alternate"
       hreflang="nl"
       href="https://www.atablebooked.nl/"/>
     <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Juridisch -->
   <url>
     <loc>https://www.atablebooked.nl/privacy/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.atablebooked.nl/algemene-voorwaarden/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
 </urlset>

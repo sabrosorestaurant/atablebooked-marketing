@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width,
+                 initial-scale=1.0">
+
+  <title>Pagina niet gevonden — ATableBooked</title>
+  <meta name="robots" content="noindex">
+
+  <!-- Plausible Analytics (privacy-first, GDPR-proof) -->
+  <script defer
+          data-domain="atablebooked.nl"
+          src="https://plausible.io/js/script.js">
+  </script>
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="css/design-system.css">
+  <link rel="stylesheet"
+        href="css/components.css">
+  <link rel="stylesheet"
+        href="css/homepage.css">
+
+  <link rel="icon" type="image/svg+xml"
+        href="img/favicon.svg">
+  <link rel="icon" type="image/png"
+        sizes="32x32"
+        href="img/favicon-32.png">
+  <meta name="theme-color" content="#C9A96E">
+</head>
+<body>
+
+  <!-- Minimale nav — geen hamburger menu
+       want dit is een error pagina -->
+  <nav class="nav" id="nav"
+       role="navigation"
+       aria-label="Hoofdnavigatie">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo"
+         aria-label="ATableBooked homepage">
+        <span class="nav-logo-dot"
+              aria-hidden="true"></span>
+        ATableBooked
+      </a>
+      <div class="nav-actions">
+        <a href="https://app.atablebooked.nl/login"
+           class="nav-login"
+           target="_blank" rel="noopener">
+          Inloggen
+        </a>
+        <a href="https://app.atablebooked.nl/aanmelden"
+           class="btn btn-primary btn-sm">
+          Start gratis
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- 404 CONTENT -->
+  <section style="
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: var(--space-16) var(--space-6);
+    background-color: var(--color-beige);
+    padding-top: calc(var(--nav-height)
+                 + var(--space-16));
+  " aria-label="Pagina niet gevonden">
+
+    <div style="text-align:center;
+                max-width:560px;">
+
+      <!-- Groot gouden getal -->
+      <div style="
+        font-family: var(--font-display);
+        font-size: clamp(80px, 15vw, 140px);
+        font-weight: 700;
+        color: var(--color-gold);
+        line-height: 1;
+        opacity: 0.25;
+        margin-bottom: var(--space-4);
+        letter-spacing: -4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      " aria-hidden="true">404</div>
+
+      <!-- SVG illustratie: lege tafel -->
+      <div style="margin: 0 auto
+                  var(--space-8);
+                  width: 160px;"
+           aria-hidden="true">
+        <svg viewBox="0 0 160 120"
+             xmlns="http://www.w3.org/2000/svg"
+             preserveAspectRatio="xMidYMid meet"
+             width="100%">
+
+          <!-- Tafelblad -->
+          <rect x="20" y="50" width="120"
+                height="8" rx="4"
+                fill="#1A1816" opacity="0.10"/>
+
+          <!-- Tafelpoot links -->
+          <rect x="35" y="58" width="6"
+                height="40" rx="3"
+                fill="#1A1816" opacity="0.08"/>
+
+          <!-- Tafelpoot rechts -->
+          <rect x="119" y="58" width="6"
+                height="40" rx="3"
+                fill="#1A1816" opacity="0.08"/>
+
+          <!-- Lege bord -->
+          <circle cx="80" cy="42" r="22"
+                  fill="none"
+                  stroke="#C9A96E"
+                  stroke-width="1.5"
+                  opacity="0.40"/>
+          <circle cx="80" cy="42" r="16"
+                  fill="none"
+                  stroke="#C9A96E"
+                  stroke-width="1"
+                  opacity="0.20"/>
+
+          <!-- Vork links -->
+          <line x1="52" y1="25"
+                x2="52" y2="58"
+                stroke="#1A1816"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                opacity="0.20"/>
+          <line x1="49" y1="25"
+                x2="49" y2="35"
+                stroke="#1A1816"
+                stroke-width="1"
+                stroke-linecap="round"
+                opacity="0.15"/>
+          <line x1="55" y1="25"
+                x2="55" y2="35"
+                stroke="#1A1816"
+                stroke-width="1"
+                stroke-linecap="round"
+                opacity="0.15"/>
+
+          <!-- Mes rechts -->
+          <line x1="108" y1="25"
+                x2="108" y2="58"
+                stroke="#1A1816"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                opacity="0.20"/>
+          <path d="M108 25 Q112 30 108 38"
+                fill="none"
+                stroke="#1A1816"
+                stroke-width="1"
+                opacity="0.15"/>
+
+          <!-- Vraagteken op bord -->
+          <text x="80" y="47"
+                font-family="Georgia, serif"
+                font-size="18"
+                font-weight="700"
+                fill="#C9A96E"
+                text-anchor="middle"
+                opacity="0.50">?</text>
+
+        </svg>
+      </div>
+
+      <!-- Tekst -->
+      <h1 style="
+        font-family: var(--font-display);
+        font-size: clamp(var(--text-2xl),
+                         4vw, var(--text-4xl));
+        font-weight: 700;
+        color: var(--color-ink);
+        letter-spacing: var(--tracking-tight);
+        margin-bottom: var(--space-4);
+        line-height: var(--leading-tight);
+      ">
+        Deze tafel bestaat niet
+      </h1>
+
+      <p style="
+        font-size: var(--text-lg);
+        color: var(--color-ink-60);
+        line-height: var(--leading-relaxed);
+        margin-bottom: var(--space-8);
+      ">
+        De pagina die je zoekt is verplaatst,
+        verwijderd of heeft nooit bestaan.
+        Geen zorgen &mdash; de rest van onze
+        tafel staat klaar voor je.
+      </p>
+
+      <!-- Knoppen -->
+      <div style="
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: var(--space-3);
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: var(--space-10);
+      ">
+        <a href="/"
+           class="btn btn-primary btn-lg">
+          Naar de homepage
+        </a>
+        <a href="/functies/"
+           class="btn btn-secondary btn-lg">
+          Bekijk functies
+        </a>
+      </div>
+
+      <!-- Snelle links -->
+      <div style="
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: var(--space-6);
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      ">
+        <a href="/prijzen/"
+           style="font-size:var(--text-sm);
+                  color:var(--color-gold-dark);
+                  text-decoration:underline;
+                  -webkit-text-decoration-color:
+                    rgba(201,169,110,0.40);
+                  text-decoration-color:
+                    rgba(201,169,110,0.40);">
+          Prijzen
+        </a>
+        <a href="/blog/"
+           style="font-size:var(--text-sm);
+                  color:var(--color-gold-dark);
+                  text-decoration:underline;
+                  -webkit-text-decoration-color:
+                    rgba(201,169,110,0.40);
+                  text-decoration-color:
+                    rgba(201,169,110,0.40);">
+          Blog
+        </a>
+        <a href="/over/"
+           style="font-size:var(--text-sm);
+                  color:var(--color-gold-dark);
+                  text-decoration:underline;
+                  -webkit-text-decoration-color:
+                    rgba(201,169,110,0.40);
+                  text-decoration-color:
+                    rgba(201,169,110,0.40);">
+          Over ons
+        </a>
+        <a href="mailto:hallo@atablebooked.nl"
+           style="font-size:var(--text-sm);
+                  color:var(--color-gold-dark);
+                  text-decoration:underline;
+                  -webkit-text-decoration-color:
+                    rgba(201,169,110,0.40);
+                  text-decoration-color:
+                    rgba(201,169,110,0.40);">
+          Contact
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

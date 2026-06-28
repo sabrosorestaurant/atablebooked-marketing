@@ -1,2 +1,8 @@
+# Canonical domein: apex -> www (behouden)
 http://atablebooked.nl/* https://www.atablebooked.nl/:splat 301
 https://atablebooked.nl/* https://www.atablebooked.nl/:splat 301
+
+# Taalsecties naar hun index; alle overige onbekende
+# routes laat Render zelf afhandelen -> serveert 404.html
+/en/* /en/index.html 200
+/de/* /de/index.html 200

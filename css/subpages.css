@@ -946,6 +946,20 @@
   color: var(--color-ink);
 }
 
+/* 4e kolom — Formitable (neutraal) + Zenchef waarschuwingscellen */
+.vs-table thead th.neutral-col {
+  color: var(--color-ink-60);
+}
+
+.vs-table tbody td.neutral-col {
+  background-color: var(--color-beige);
+  color: var(--color-ink-60);
+}
+
+.vs-table tbody td.warn-col {
+  color: #B85C00;
+}
+
 .vs-check {
   color: var(--color-gold);
   font-size: var(--text-lg);

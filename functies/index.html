@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Functies — ATableBooked Reserveringssysteem</title>
+  <meta name="description"
+        content="Ontdek alle functies van ATableBooked: reserveringswidget, automatische e-mails, no-show preventie, arrangementen en statistieken. Alles voor Nederlandse restaurants.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical"
+        href="https://www.atablebooked.nl/functies/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url"
+        content="https://www.atablebooked.nl/functies/">
+  <meta property="og:title"
+        content="Functies — ATableBooked">
+  <meta property="og:description"
+        content="Alles wat een modern restaurant nodig heeft. Één systeem, geen gedoe.">
+  <meta property="og:locale" content="nl_NL">
+
+  <link rel="alternate" hreflang="nl"
+        href="https://www.atablebooked.nl/functies/">
+  <link rel="alternate" hreflang="x-default"
+        href="https://www.atablebooked.nl/functies/">
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/design-system.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/homepage.css">
+  <link rel="stylesheet" href="../css/subpages.css">
+
+  <link rel="icon" type="image/svg+xml"
+        href="../img/favicon.svg">
+  <meta name="theme-color" content="#C9A96E">
+</head>
+
+<body>
+
+  <!-- NAVIGATIE — zelfde als homepage
+       maar href="#..." wordt href="/#..." -->
+  <nav class="nav" id="nav" role="navigation"
+       aria-label="Hoofdnavigatie">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo"
+         aria-label="ATableBooked — naar homepage">
+        <span class="nav-logo-dot"
+              aria-hidden="true"></span>
+        ATableBooked
+      </a>
+      <ul class="nav-menu" role="list">
+        <li>
+          <a href="/functies/" class="nav-link active"
+             data-nav-link>Functies</a>
+        </li>
+        <li>
+          <a href="/prijzen/" class="nav-link"
+             data-nav-link>Prijzen</a>
+        </li>
+        <li>
+          <a href="/demo/" class="nav-link"
+             data-nav-link>Demo</a>
+        </li>
+        <li>
+          <a href="/over/" class="nav-link"
+             data-nav-link>Over ons</a>
+        </li>
+        <li>
+          <a href="/blog/" class="nav-link"
+             data-nav-link>Blog</a>
+        </li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://app.atablebooked.nl/login"
+           class="nav-login"
+           target="_blank" rel="noopener">
+          Inloggen
+        </a>
+        <a href="/#aanmelden"
+           class="btn btn-primary btn-sm">
+          Start gratis
+        </a>
+        <button class="nav-hamburger"
+                id="nav-hamburger"
+                aria-label="Menu openen"
+                aria-expanded="false"
+                aria-controls="nav-mobile">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobiel overlay menu -->
+  <div class="nav-mobile" id="nav-mobile"
+       role="dialog"
+       aria-label="Mobiel navigatiemenu"
+       aria-modal="true">
+    <a href="/functies/" class="nav-mobile-link"
+       data-mobile-link>Functies</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/prijzen/" class="nav-mobile-link"
+       data-mobile-link>Prijzen</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/demo/" class="nav-mobile-link"
+       data-mobile-link>Demo</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/over/" class="nav-mobile-link"
+       data-mobile-link>Over ons</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/blog/" class="nav-mobile-link"
+       data-mobile-link>Blog</a>
+    <div class="nav-mobile-contact">
+      <a href="https://app.atablebooked.nl/login"
+         class="btn btn-secondary"
+         target="_blank" rel="noopener">
+        Inloggen
+      </a>
+      <a href="/#aanmelden" class="btn btn-primary"
+         data-mobile-link>
+        Start gratis
+      </a>
+    </div>
+  </div>
+
+
+  <!-- SUBPAGINA HERO -->
+  <section class="subpage-hero"
+           aria-label="Functies overzicht">
+    <div class="container">
+      <div class="subpage-hero-inner">
+
+        <nav aria-label="Breadcrumb">
+          <div class="breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep"
+                  aria-hidden="true">/</span>
+            <span class="breadcrumb-current">
+              Functies
+            </span>
+          </div>
+        </nav>
+
+        <p class="label fade-in">Functies</p>
+        <div class="divider centered fade-in"
+             aria-hidden="true"></div>
+        <h1 class="display-2 fade-up">
+          Alles wat een modern restaurant<br>
+          nodig heeft
+        </h1>
+        <p class="lead fade-up stagger-1">
+          Één systeem. Geen losse tools. Geen gedoe.
+          ATableBooked vervangt telefoonreserveringen,
+          no-shows en commissiekosten in één klap.
+        </p>
+        <div class="btn-group centered fade-up stagger-2">
+          <a href="/#aanmelden"
+             class="btn btn-primary btn-lg">
+            Start 30 dagen gratis
+          </a>
+          <a href="/demo/"
+             class="btn btn-secondary btn-lg">
+            Bekijk een demo
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FEATURE 1: WIDGET -->
+  <section class="section bg-white"
+           id="widget"
+           aria-label="Reserveringswidget">
+    <div class="container">
+      <div class="feature-detail-grid">
+
+        <div class="feature-detail-text fade-left">
+          <p class="label">Widget</p>
+          <div class="divider" aria-hidden="true"></div>
+          <h2 class="display-3">
+            Reserveringen direct<br>op jouw website
+          </h2>
+          <p>
+            Geen doorverwijzing naar TheFork of een
+            ander platform. Gasten reserveren direct
+            op jouw eigen website — in jouw stijl,
+            met jouw branding.
+          </p>
+          <p>
+            Eén stuk code kopiëren en plakken is
+            alles wat je hoeft te doen. Werkt op
+            elke website — WordPress, Wix, Squarespace
+            of een website van een webbureau.
+          </p>
+          <ul class="feature-check-list">
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Jouw gasten, jouw data — geen platform ertussen
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              24/7 reserveringen aannemen, ook buiten openingstijden
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Drie embedmodes: inline, popup of knop
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Kleurpalet aanpasbaar aan jouw huisstijl
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Werkt op mobiel, tablet en desktop
+            </li>
+          </ul>
+        </div>
+
+        <div class="feature-detail-visual fade-right"
+             aria-hidden="true">
+          <svg viewBox="0 0 400 300"
+               xmlns="http://www.w3.org/2000/svg"
+               preserveAspectRatio="xMidYMid meet"
+               width="100%">
+            <rect width="400" height="300"
+                  fill="#EEE9E2" rx="16"/>
+            <!-- Widget mockup -->
+            <rect x="40" y="30" width="320" height="240"
+                  rx="12" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <!-- Header -->
+            <rect x="40" y="30" width="320" height="48"
+                  rx="12" fill="#1A1816"/>
+            <rect x="40" y="54" width="320" height="24"
+                  fill="#1A1816"/>
+            <rect x="60" y="44" width="120" height="8"
+                  rx="4" fill="white" opacity="0.9"/>
+            <rect x="60" y="58" width="80" height="5"
+                  rx="2.5" fill="white" opacity="0.4"/>
+            <!-- Datum kiezer -->
+            <rect x="60" y="96" width="280" height="36"
+                  rx="8" fill="#EEE9E2"/>
+            <rect x="72" y="108" width="60" height="8"
+                  rx="4" fill="#1A1816" opacity="0.4"/>
+            <rect x="268" y="108" width="60" height="8"
+                  rx="4" fill="#C9A96E" opacity="0.6"/>
+            <!-- Personen -->
+            <rect x="60" y="148" width="280" height="36"
+                  rx="8" fill="#EEE9E2"/>
+            <rect x="72" y="160" width="80" height="8"
+                  rx="4" fill="#1A1816" opacity="0.4"/>
+            <rect x="276" y="156" width="24" height="16"
+                  rx="8" fill="#C9A96E" opacity="0.3"/>
+            <rect x="292" y="160" width="24" height="8"
+                  rx="4" fill="#1A1816" opacity="0.4"/>
+            <!-- Tijdsloten -->
+            <rect x="60" y="200" width="84" height="32"
+                  rx="8" fill="#C9A96E"/>
+            <rect x="78" y="212" width="48" height="8"
+                  rx="4" fill="white"/>
+            <rect x="156" y="200" width="84" height="32"
+                  rx="8" fill="#EEE9E2"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="170" y="212" width="56" height="8"
+                  rx="4" fill="#1A1816" opacity="0.4"/>
+            <rect x="252" y="200" width="84" height="32"
+                  rx="8" fill="#EEE9E2"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="266" y="212" width="56" height="8"
+                  rx="4" fill="#1A1816" opacity="0.4"/>
+          </svg>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FEATURE 2: E-MAIL NOTIFICATIES -->
+  <section class="section bg-beige"
+           id="email"
+           aria-label="E-mail notificaties">
+    <div class="container">
+      <div class="feature-detail-grid reverse">
+
+        <div class="feature-detail-visual fade-left"
+             aria-hidden="true">
+          <svg viewBox="0 0 400 300"
+               xmlns="http://www.w3.org/2000/svg"
+               preserveAspectRatio="xMidYMid meet"
+               width="100%">
+            <rect width="400" height="300"
+                  fill="#EEE9E2" rx="16"/>
+            <!-- E-mail mockup -->
+            <!-- Mail 1 -->
+            <rect x="30" y="30" width="340" height="70"
+                  rx="10" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="48" y="44" width="32" height="32"
+                  rx="8" fill="#C9A96E" opacity="0.2"/>
+            <rect x="92" y="46" width="120" height="8"
+                  rx="4" fill="#1A1816" opacity="0.7"/>
+            <rect x="92" y="60" width="180" height="6"
+                  rx="3" fill="#1A1816" opacity="0.35"/>
+            <rect x="92" y="72" width="140" height="6"
+                  rx="3" fill="#1A1816" opacity="0.25"/>
+            <rect x="300" y="44" width="54" height="20"
+                  rx="10" fill="#2D6A4F" opacity="0.12"/>
+            <rect x="310" y="50" width="34" height="6"
+                  rx="3" fill="#2D6A4F" opacity="0.7"/>
+            <!-- Mail 2 -->
+            <rect x="30" y="116" width="340" height="70"
+                  rx="10" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="48" y="130" width="32" height="32"
+                  rx="8" fill="#C9A96E" opacity="0.15"/>
+            <rect x="92" y="132" width="100" height="8"
+                  rx="4" fill="#1A1816" opacity="0.7"/>
+            <rect x="92" y="146" width="200" height="6"
+                  rx="3" fill="#1A1816" opacity="0.35"/>
+            <rect x="92" y="158" width="160" height="6"
+                  rx="3" fill="#1A1816" opacity="0.25"/>
+            <rect x="296" y="130" width="58" height="20"
+                  rx="10" fill="#C9A96E" opacity="0.12"/>
+            <rect x="305" y="136" width="40" height="6"
+                  rx="3" fill="#C9A96E" opacity="0.7"/>
+            <!-- Mail 3 -->
+            <rect x="30" y="202" width="340" height="70"
+                  rx="10" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="48" y="216" width="32" height="32"
+                  rx="8" fill="#C9A96E" opacity="0.20"/>
+            <rect x="92" y="218" width="140" height="8"
+                  rx="4" fill="#1A1816" opacity="0.7"/>
+            <rect x="92" y="232" width="170" height="6"
+                  rx="3" fill="#1A1816" opacity="0.35"/>
+            <rect x="92" y="244" width="130" height="6"
+                  rx="3" fill="#1A1816" opacity="0.25"/>
+            <rect x="308" y="216" width="46" height="20"
+                  rx="10" fill="#2D6A4F" opacity="0.12"/>
+            <rect x="316" y="222" width="30" height="6"
+                  rx="3" fill="#2D6A4F" opacity="0.7"/>
+          </svg>
+        </div>
+
+        <div class="feature-detail-text fade-right">
+          <p class="label">E-mail automatisering</p>
+          <div class="divider" aria-hidden="true"></div>
+          <h2 class="display-3">
+            Automatische e-mails die<br>
+            no-shows halveren
+          </h2>
+          <p>
+            ATableBooked verstuurt automatisch de juiste
+            e-mail op het juiste moment. Jij doet niets
+            extra — het systeem werkt voor je, dag en nacht.
+          </p>
+          <p>
+            Restaurants die onze automatische herinneringen
+            gebruiken zien gemiddeld 40% minder no-shows.
+            Dat zijn gevulde tafels, minder verspilling
+            en meer omzet.
+          </p>
+          <ul class="feature-check-list">
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Bevestigingsmail direct na boeking
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Herinnering 24 uur voor reservering
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Dankjewel-mail na bezoek
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Annuleringsbevestiging automatisch
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Templates volledig aanpasbaar naar jouw stijl
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FEATURE 3: ARRANGEMENTEN -->
+  <section class="section bg-white"
+           id="arrangementen"
+           aria-label="Arrangementen en specials">
+    <div class="container">
+      <div class="feature-detail-grid">
+
+        <div class="feature-detail-text fade-left">
+          <p class="label">Arrangementen</p>
+          <div class="divider" aria-hidden="true"></div>
+          <h2 class="display-3">
+            Extra omzet bij elke<br>
+            reservering
+          </h2>
+          <p>
+            Koppel speciale menu's, arrangementen of
+            extra's aan reserveringen. Gasten zien
+            het direct bij het boeken en kunnen het
+            direct toevoegen.
+          </p>
+          <p>
+            Kerst, valentijn, moederdag, een speciale
+            chef's table — alles in te stellen zonder
+            technische kennis. Activeer wanneer je
+            wilt, deactiveer wanneer je wilt.
+          </p>
+          <ul class="feature-check-list">
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Onbeperkt arrangementen aanmaken
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Koppelen aan specifieke datums of periodes
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Gasten zien het bij het reserveren
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Meerprijs instellen per persoon
+            </li>
+          </ul>
+        </div>
+
+        <div class="feature-detail-visual fade-right"
+             aria-hidden="true">
+          <svg viewBox="0 0 400 300"
+               xmlns="http://www.w3.org/2000/svg"
+               preserveAspectRatio="xMidYMid meet"
+               width="100%">
+            <rect width="400" height="300"
+                  fill="#EEE9E2" rx="16"/>
+            <!-- Arrangement card -->
+            <rect x="40" y="40" width="320" height="100"
+                  rx="12" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="40" y="40" width="4" height="100"
+                  rx="2" fill="#C9A96E"/>
+            <rect x="60" y="56" width="140" height="10"
+                  rx="5" fill="#1A1816" opacity="0.8"/>
+            <rect x="60" y="72" width="200" height="7"
+                  rx="3.5" fill="#1A1816" opacity="0.4"/>
+            <rect x="60" y="84" width="170" height="7"
+                  rx="3.5" fill="#1A1816" opacity="0.3"/>
+            <rect x="60" y="104" width="80" height="24"
+                  rx="12" fill="#C9A96E" opacity="0.15"/>
+            <rect x="72" y="112" width="56" height="8"
+                  rx="4" fill="#C9A96E" opacity="0.8"/>
+            <rect x="288" y="100" width="56" height="28"
+                  rx="8" fill="#C9A96E"/>
+            <rect x="296" y="110" width="40" height="8"
+                  rx="4" fill="white"/>
+            <!-- Card 2 -->
+            <rect x="40" y="156" width="320" height="100"
+                  rx="12" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="40" y="156" width="4" height="100"
+                  rx="2" fill="#1A1816" opacity="0.3"/>
+            <rect x="60" y="172" width="120" height="10"
+                  rx="5" fill="#1A1816" opacity="0.8"/>
+            <rect x="60" y="188" width="210" height="7"
+                  rx="3.5" fill="#1A1816" opacity="0.4"/>
+            <rect x="60" y="200" width="180" height="7"
+                  rx="3.5" fill="#1A1816" opacity="0.3"/>
+            <rect x="60" y="220" width="80" height="24"
+                  rx="12" fill="#1A1816" opacity="0.06"/>
+            <rect x="72" y="228" width="56" height="8"
+                  rx="4" fill="#1A1816" opacity="0.4"/>
+            <rect x="288" y="216" width="56" height="28"
+                  rx="8" fill="#EEE9E2"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="296" y="226" width="40" height="8"
+                  rx="4" fill="#1A1816" opacity="0.4"/>
+          </svg>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FEATURE 4: STATISTIEKEN -->
+  <section class="section bg-beige"
+           id="statistieken"
+           aria-label="Inzichten en statistieken">
+    <div class="container">
+      <div class="feature-detail-grid reverse">
+
+        <div class="feature-detail-visual fade-left"
+             aria-hidden="true">
+          <svg viewBox="0 0 400 300"
+               xmlns="http://www.w3.org/2000/svg"
+               preserveAspectRatio="xMidYMid meet"
+               width="100%">
+            <rect width="400" height="300"
+                  fill="#EEE9E2" rx="16"/>
+            <!-- Stat kaarten bovenaan -->
+            <rect x="30" y="24" width="100" height="64"
+                  rx="10" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="42" y="36" width="50" height="7"
+                  rx="3.5" fill="#1A1816" opacity="0.4"/>
+            <rect x="42" y="50" width="60" height="12"
+                  rx="4" fill="#1A1816" opacity="0.8"/>
+            <rect x="42" y="68" width="40" height="6"
+                  rx="3" fill="#2D6A4F" opacity="0.6"/>
+
+            <rect x="150" y="24" width="100" height="64"
+                  rx="10" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="162" y="36" width="60" height="7"
+                  rx="3.5" fill="#1A1816" opacity="0.4"/>
+            <rect x="162" y="50" width="50" height="12"
+                  rx="4" fill="#1A1816" opacity="0.8"/>
+            <rect x="162" y="68" width="45" height="6"
+                  rx="3" fill="#C9A96E" opacity="0.7"/>
+
+            <rect x="270" y="24" width="100" height="64"
+                  rx="10" fill="#C9A96E"/>
+            <rect x="282" y="36" width="50" height="7"
+                  rx="3.5" fill="white" opacity="0.7"/>
+            <rect x="282" y="50" width="65" height="12"
+                  rx="4" fill="white"/>
+            <rect x="282" y="68" width="40" height="6"
+                  rx="3" fill="white" opacity="0.6"/>
+
+            <!-- Grafiek -->
+            <rect x="30" y="106" width="340" height="130"
+                  rx="10" fill="white"
+                  stroke="#E0D9CE" stroke-width="1"/>
+            <rect x="42" y="116" width="80" height="8"
+                  rx="4" fill="#1A1816" opacity="0.6"/>
+            <!-- Bars -->
+            <rect x="54" y="184" width="22" height="36"
+                  rx="4" fill="#C9A96E" opacity="0.3"/>
+            <rect x="88" y="168" width="22" height="52"
+                  rx="4" fill="#C9A96E" opacity="0.5"/>
+            <rect x="122" y="152" width="22" height="68"
+                  rx="4" fill="#C9A96E" opacity="0.7"/>
+            <rect x="156" y="160" width="22" height="60"
+                  rx="4" fill="#C9A96E" opacity="0.6"/>
+            <rect x="190" y="140" width="22" height="80"
+                  rx="4" fill="#C9A96E"/>
+            <rect x="224" y="148" width="22" height="72"
+                  rx="4" fill="#C9A96E" opacity="0.8"/>
+            <rect x="258" y="136" width="22" height="84"
+                  rx="4" fill="#C9A96E"/>
+            <rect x="292" y="144" width="22" height="76"
+                  rx="4" fill="#C9A96E" opacity="0.9"/>
+            <rect x="326" y="132" width="22" height="88"
+                  rx="4" fill="#C9A96E"/>
+            <!-- X-as lijn -->
+            <rect x="42" y="220" width="316" height="1"
+                  fill="#EEE9E2"/>
+          </svg>
+        </div>
+
+        <div class="feature-detail-text fade-right">
+          <p class="label">Inzichten</p>
+          <div class="divider" aria-hidden="true"></div>
+          <h2 class="display-3">
+            Data die je slim maakt,<br>
+            niet overweldigt
+          </h2>
+          <p>
+            Zie wanneer je druk bent, wie je trouwste
+            gasten zijn en waar je omzet vandaan komt.
+            Gemaakt voor restauranthouders — niet voor
+            data-analisten.
+          </p>
+          <p>
+            Plan je personeel beter, koop slimmer in
+            en herken je vaste gasten. Alles in één
+            helder overzicht, altijd up-to-date.
+          </p>
+          <ul class="feature-check-list">
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Bezetting per dag, week en maand
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Piekmomenten en rustige periodes
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              Terugkerende gasten herkennen
+            </li>
+            <li class="feature-check-item">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="20 6 9 17 4 12">
+                </polyline>
+              </svg>
+              No-show percentage bijhouden
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA BANNER -->
+  <section class="section bg-white"
+           aria-label="Starten met ATableBooked">
+    <div class="container">
+      <div class="subpage-cta-banner fade-up">
+        <span class="badge badge-gold"
+              style="margin-bottom:var(--space-5);
+                     display:inline-flex;">
+          30 DAGEN GRATIS &nbsp;&middot;&nbsp;
+          GEEN CREDITCARD
+        </span>
+        <h2 class="display-2">
+          Klaar om te starten?
+        </h2>
+        <p>
+          Probeer alle functies 30 dagen gratis.
+          In 10 minuten live op jouw website.
+        </p>
+        <div class="btn-group centered">
+          <a href="https://app.atablebooked.nl/aanmelden"
+             class="btn btn-primary btn-lg">
+            Start nu gratis
+          </a>
+          <a href="/demo/"
+             class="btn btn-outline-white btn-lg">
+            Bekijk een demo
+          </a>
+        </div>
+      </div>
+
+      <!-- Navigatie naar andere pagina's -->
+      <div class="subpage-nav-links">
+        <a href="/" class="subpage-nav-link">
+          <svg width="16" height="16"
+               viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               aria-hidden="true">
+            <line x1="19" y1="12" x2="5" y2="12">
+            </line>
+            <polyline points="12 19 5 12 12 5">
+            </polyline>
+          </svg>
+          Terug naar home
+        </a>
+        <a href="/prijzen/" class="subpage-nav-link">
+          Bekijk de prijzen
+          <svg width="16" height="16"
+               viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12">
+            </line>
+            <polyline points="12 5 19 12 12 19">
+            </polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER — exact zelfde als homepage -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span style="width:8px;height:8px;
+                         border-radius:50%;
+                         background:var(--color-gold);
+                         display:inline-block;
+                         flex-shrink:0;"
+                  aria-hidden="true"></span>
+            ATableBooked
+          </div>
+          <p>
+            Het slimste reserveringssysteem voor
+            Nederlandse restaurants. Geen commissie,
+            altijd eerlijk geprijsd.
+          </p>
+          <div class="footer-social"
+               aria-label="Social media">
+            <a href="https://linkedin.com/company/atablebooked"
+               class="footer-social-link"
+               target="_blank" rel="noopener"
+               aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7
+                         a2 2 0 0 0-2-2 2 2 0 0 0-2 2
+                         v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4"
+                      height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="https://instagram.com/atablebooked"
+               class="footer-social-link"
+               target="_blank" rel="noopener"
+               aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20"
+                      rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8
+                         4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5"
+                      x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <nav aria-label="Product navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/functies/"
+                     class="footer-link">Functies</a></li>
+              <li><a href="/prijzen/"
+                     class="footer-link">Prijzen</a></li>
+              <li><a href="/demo/"
+                     class="footer-link">
+                     Demo aanvragen</a></li>
+              <li><a href="https://app.atablebooked.nl/aanmelden"
+                     class="footer-link">
+                     Gratis starten</a></li>
+              <li><a href="https://app.atablebooked.nl/login"
+                     class="footer-link"
+                     target="_blank" rel="noopener">
+                     Inloggen</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Bedrijf</div>
+          <nav aria-label="Bedrijf navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/over/"
+                     class="footer-link">Over ons</a></li>
+              <li><a href="/blog/"
+                     class="footer-link">Blog</a></li>
+              <li><a href="mailto:hallo@atablebooked.nl"
+                     class="footer-link">Contact</a></li>
+              <li><a href="/privacy/"
+                     class="footer-link">
+                     Privacybeleid</a></li>
+              <li><a href="/algemene-voorwaarden/"
+                     class="footer-link">
+                     Algemene voorwaarden</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">
+            Vergelijkingen
+          </div>
+          <nav aria-label="Vergelijkingen navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/vergelijking/vs-formitable/"
+                     class="footer-link">
+                     vs Formitable</a></li>
+              <li><a href="/vergelijking/vs-thefork/"
+                     class="footer-link">
+                     vs TheFork</a></li>
+              <li><a href="/vergelijking/vs-zenchef/"
+                     class="footer-link">
+                     vs Zenchef</a></li>
+              <li><a href="/vergelijking/vs-iens/"
+                     class="footer-link">vs IENS</a></li>
+              <li><a href="/vergelijking/vs-weserve/"
+                     class="footer-link">
+                     vs WeServe</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          &copy; 2026 ATableBooked
+          &nbsp;&middot;&nbsp;
+          Gemaakt met &#10084;&#65039; in
+          Nederland &#127475;&#127473;
+        </div>
+        <div class="footer-bottom-right">
+          <a href="/privacy/"
+             class="footer-legal-link">
+            Privacybeleid
+          </a>
+          <a href="/algemene-voorwaarden/"
+             class="footer-legal-link">
+            Algemene voorwaarden
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/pricing.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+</html>

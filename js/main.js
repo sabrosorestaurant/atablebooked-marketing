@@ -107,6 +107,8 @@
     addHoverAll('.comparison-table tbody tr', 'hover');
     addHoverAll('.principle-card');
     addHoverAll('.contact-main-card');
+    addHoverAll('.argument-card');
+    addHoverAll('.vs-table tbody tr', 'hover');
   }
 
 

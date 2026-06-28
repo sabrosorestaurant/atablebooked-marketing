@@ -388,3 +388,115 @@
   }
 
 }());
+
+
+/* ──────────────────────────────────
+   LANGUAGE SWITCHER
+   ────────────────────────────────── */
+
+function initLangSwitcher() {
+  var btn = document.getElementById(
+    'lang-switcher-btn'
+  );
+  var dropdown = document.getElementById(
+    'lang-dropdown'
+  );
+
+  if (!btn || !dropdown) { return; }
+
+  function openDropdown() {
+    btn.classList.add('open');
+    dropdown.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+
+  function closeDropdown() {
+    btn.classList.remove('open');
+    dropdown.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  }
+
+  function toggleDropdown() {
+    if (btn.classList.contains('open')) {
+      closeDropdown();
+    } else {
+      openDropdown();
+    }
+  }
+
+  btn.addEventListener('click', function() {
+    toggleDropdown();
+  });
+
+  btn.addEventListener('mouseenter', function() {
+    openDropdown();
+  });
+
+  btn.addEventListener('mouseleave', function() {
+    setTimeout(function() {
+      if (!dropdown.matches(':hover')) {
+        closeDropdown();
+      }
+    }, 100);
+  });
+
+  dropdown.addEventListener(
+    'mouseleave', function() {
+      closeDropdown();
+    }
+  );
+
+  document.addEventListener(
+    'click', function(e) {
+      if (!btn.contains(e.target) &&
+          !dropdown.contains(e.target)) {
+        closeDropdown();
+      }
+    }
+  );
+
+  document.addEventListener(
+    'keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeDropdown();
+      }
+    }
+  );
+
+  var items = dropdown.querySelectorAll(
+    '.lang-dropdown-item'
+  );
+  var i;
+  for (i = 0; i < items.length; i++) {
+    items[i].addEventListener(
+      'mouseenter', function() {
+        this.classList.add('hover');
+      }
+    );
+    items[i].addEventListener(
+      'mouseleave', function() {
+        this.classList.remove('hover');
+      }
+    );
+  }
+
+  btn.addEventListener(
+    'mouseenter', function() {
+      btn.classList.add('hover');
+    }
+  );
+  btn.addEventListener(
+    'mouseleave', function() {
+      btn.classList.remove('hover');
+    }
+  );
+}
+
+/* Initialiseer bij DOM ready */
+if (document.readyState === 'loading') {
+  document.addEventListener(
+    'DOMContentLoaded', initLangSwitcher
+  );
+} else {
+  initLangSwitcher();
+}

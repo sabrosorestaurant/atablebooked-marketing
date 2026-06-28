@@ -226,6 +226,67 @@
           <span aria-hidden="true"></span>
         </button>
       </div>
+
+      <!-- Taalwisselaar (desktop) -->
+      <div class="lang-switcher"
+           role="navigation"
+           aria-label="Sprache wählen">
+        <button class="lang-switcher-btn"
+                id="lang-switcher-btn"
+                type="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-controls="lang-dropdown">
+          <span class="lang-switcher-flag"
+                aria-hidden="true">🇩🇪</span>
+          <span class="lang-switcher-code">DE</span>
+          <svg class="lang-switcher-chevron"
+               viewBox="0 0 24 24" fill="none"
+               stroke="currentColor"
+               stroke-width="2.5"
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               aria-hidden="true">
+            <polyline points="6 9 12 15 18 9">
+            </polyline>
+          </svg>
+        </button>
+        <div class="lang-dropdown"
+             id="lang-dropdown"
+             role="menu">
+          <a href="/"
+             class="lang-dropdown-item"
+             role="menuitem"
+             hreflang="nl">
+            <span class="lang-dropdown-item-flag"
+                  aria-hidden="true">🇳🇱</span>
+            <span class="lang-dropdown-item-label">
+              Nederlands
+            </span>
+          </a>
+          <a href="/en/"
+             class="lang-dropdown-item"
+             role="menuitem"
+             hreflang="en">
+            <span class="lang-dropdown-item-flag"
+                  aria-hidden="true">🇬🇧</span>
+            <span class="lang-dropdown-item-label">
+              English
+            </span>
+          </a>
+          <span class="lang-dropdown-item active"
+                role="menuitem"
+                aria-current="true">
+            <span class="lang-dropdown-item-flag"
+                  aria-hidden="true">🇩🇪</span>
+            <span class="lang-dropdown-item-label">
+              Deutsch
+            </span>
+            <span class="lang-dropdown-item-active-dot"
+                  aria-hidden="true"></span>
+          </span>
+        </div>
+      </div>
     </div>
   </nav>
 
@@ -263,6 +324,26 @@
          data-mobile-link>
         Kostenlos starten
       </a>
+    </div>
+
+    <!-- Taalwisselaar (mobiel) -->
+    <div class="nav-mobile-lang"
+         role="navigation"
+         aria-label="Sprache wählen">
+      <a href="/"
+         class="nav-mobile-lang-item"
+         hreflang="nl">
+        <span aria-hidden="true">🇳🇱</span> NL
+      </a>
+      <a href="/en/"
+         class="nav-mobile-lang-item"
+         hreflang="en">
+        <span aria-hidden="true">🇬🇧</span> EN
+      </a>
+      <span class="nav-mobile-lang-item active"
+            aria-current="true">
+        <span aria-hidden="true">🇩🇪</span> DE
+      </span>
     </div>
   </div>
 

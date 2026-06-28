@@ -105,6 +105,8 @@
     addHoverAll('.breadcrumb a');
     addHoverAll('.subpage-nav-link');
     addHoverAll('.comparison-table tbody tr', 'hover');
+    addHoverAll('.principle-card');
+    addHoverAll('.contact-main-card');
   }
 
 

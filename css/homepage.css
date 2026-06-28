@@ -390,3 +390,118 @@
   margin-right: auto;
   text-align: center;
 }
+
+
+/* ════════════════════════════════════
+   PRICING SECTIE
+   ════════════════════════════════════ */
+
+.pricing-section {
+  position: relative;
+}
+
+
+/* ════════════════════════════════════
+   TRUST SECTIE
+   ════════════════════════════════════ */
+
+.trust-section {
+  border-top: 1px solid var(--color-beige-dark);
+  border-bottom: 1px solid var(--color-beige-dark);
+}
+
+
+/* ════════════════════════════════════
+   FAQ SECTIE
+   ════════════════════════════════════ */
+
+.faq-section {
+  position: relative;
+}
+
+
+/* ════════════════════════════════════
+   FOUNDER / OVER ATB SECTIE
+   ════════════════════════════════════ */
+
+.founder-section {
+  position: relative;
+}
+
+.founder-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  gap: var(--space-16);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .founder-grid {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-20);
+  }
+}
+
+.founder-text {
+  margin-top: var(--space-5);
+  color: var(--color-ink-60);
+}
+
+.founder-text + .founder-text {
+  margin-top: var(--space-4);
+}
+
+.founder-content .btn-ghost {
+  margin-top: var(--space-8);
+}
+
+.founder-image-wrap {
+  position: relative;
+}
+
+.founder-image-placeholder {
+  width: 100%;
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+
+
+/* ════════════════════════════════════
+   FINALE CTA SECTIE
+   ════════════════════════════════════ */
+
+.finale-section {
+  background-color: var(--color-beige);
+  padding-top: 0;
+}
+
+
+/* ════════════════════════════════════
+   RESPONSIVE AANPASSINGEN
+   ════════════════════════════════════ */
+
+@media (max-width: 640px) {
+  .cta-block {
+    padding: var(--space-12) var(--space-5);
+    border-radius: var(--radius-2xl);
+  }
+
+  .founder-grid {
+    gap: var(--space-10);
+  }
+
+  .pricing-grid {
+    gap: var(--space-8);
+  }
+
+  .pricing-card.featured {
+    -webkit-transform: none;
+    transform: none;
+  }
+}

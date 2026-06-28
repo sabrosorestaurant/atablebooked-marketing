@@ -98,6 +98,13 @@
 
     /* FAQ vragen */
     addHoverAll('.faq-question');
+
+    /* Subpagina elementen */
+    addHoverAll('.demo-option-card');
+    addHoverAll('.contact-option-card');
+    addHoverAll('.breadcrumb a');
+    addHoverAll('.subpage-nav-link');
+    addHoverAll('.comparison-table tbody tr', 'hover');
   }
 
 

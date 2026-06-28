@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Privacybeleid — ATableBooked</title>
+  <meta name="description"
+        content="Privacybeleid van ATableBooked. Hoe wij omgaan met persoonsgegevens van restauranthouders en hun gasten.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical"
+        href="https://www.atablebooked.nl/privacy/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url"
+        content="https://www.atablebooked.nl/privacy/">
+  <meta property="og:title"
+        content="Privacybeleid — ATableBooked">
+  <meta property="og:description"
+        content="Hoe ATableBooked omgaat met persoonsgegevens van restauranthouders en hun gasten.">
+  <meta property="og:locale" content="nl_NL">
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="../css/design-system.css">
+  <link rel="stylesheet"
+        href="../css/components.css">
+  <link rel="stylesheet"
+        href="../css/homepage.css">
+  <link rel="stylesheet"
+        href="../css/subpages.css">
+
+  <link rel="icon" type="image/svg+xml"
+        href="../img/favicon.svg">
+  <meta name="theme-color" content="#C9A96E">
+</head>
+
+<body>
+
+  <!-- NAVIGATIE -->
+  <nav class="nav" id="nav" role="navigation"
+       aria-label="Hoofdnavigatie">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo"
+         aria-label="ATableBooked — naar homepage">
+        <span class="nav-logo-dot"
+              aria-hidden="true"></span>
+        ATableBooked
+      </a>
+      <ul class="nav-menu" role="list">
+        <li><a href="/functies/" class="nav-link"
+               data-nav-link>Functies</a></li>
+        <li><a href="/prijzen/" class="nav-link"
+               data-nav-link>Prijzen</a></li>
+        <li><a href="/demo/" class="nav-link"
+               data-nav-link>Demo</a></li>
+        <li><a href="/over/" class="nav-link"
+               data-nav-link>Over ons</a></li>
+        <li><a href="/blog/" class="nav-link"
+               data-nav-link>Blog</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://app.atablebooked.nl/login"
+           class="nav-login"
+           target="_blank" rel="noopener">
+          Inloggen
+        </a>
+        <a href="https://app.atablebooked.nl/aanmelden"
+           class="btn btn-primary btn-sm">
+          Start gratis
+        </a>
+        <button class="nav-hamburger"
+                id="nav-hamburger"
+                aria-label="Menu openen"
+                aria-expanded="false"
+                aria-controls="nav-mobile">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <!-- Taalwisselaar (desktop) -->
+      <div class="lang-switcher"
+           role="navigation"
+           aria-label="Taal kiezen">
+        <button class="lang-switcher-btn"
+                id="lang-switcher-btn"
+                type="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-controls="lang-dropdown">
+          <span class="lang-switcher-flag"
+                aria-hidden="true">🇳🇱</span>
+          <span class="lang-switcher-code">NL</span>
+          <svg class="lang-switcher-chevron"
+               viewBox="0 0 24 24" fill="none"
+               stroke="currentColor"
+               stroke-width="2.5"
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               aria-hidden="true">
+            <polyline points="6 9 12 15 18 9">
+            </polyline>
+          </svg>
+        </button>
+        <div class="lang-dropdown"
+             id="lang-dropdown"
+             role="menu">
+          <span class="lang-dropdown-item active"
+                role="menuitem"
+                aria-current="true">
+            <span class="lang-dropdown-item-flag"
+                  aria-hidden="true">🇳🇱</span>
+            <span class="lang-dropdown-item-label">
+              Nederlands
+            </span>
+            <span class="lang-dropdown-item-active-dot"
+                  aria-hidden="true"></span>
+          </span>
+          <a href="/en/"
+             class="lang-dropdown-item"
+             role="menuitem"
+             hreflang="en">
+            <span class="lang-dropdown-item-flag"
+                  aria-hidden="true">🇬🇧</span>
+            <span class="lang-dropdown-item-label">
+              English
+            </span>
+          </a>
+          <a href="/de/"
+             class="lang-dropdown-item"
+             role="menuitem"
+             hreflang="de">
+            <span class="lang-dropdown-item-flag"
+                  aria-hidden="true">🇩🇪</span>
+            <span class="lang-dropdown-item-label">
+              Deutsch
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" id="nav-mobile"
+       role="dialog"
+       aria-label="Mobiel navigatiemenu"
+       aria-modal="true">
+    <a href="/functies/" class="nav-mobile-link"
+       data-mobile-link>Functies</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/prijzen/" class="nav-mobile-link"
+       data-mobile-link>Prijzen</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/demo/" class="nav-mobile-link"
+       data-mobile-link>Demo</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/over/" class="nav-mobile-link"
+       data-mobile-link>Over ons</a>
+    <div class="nav-mobile-divider"
+         aria-hidden="true"></div>
+    <a href="/blog/" class="nav-mobile-link"
+       data-mobile-link>Blog</a>
+    <div class="nav-mobile-contact">
+      <a href="https://app.atablebooked.nl/login"
+         class="btn btn-secondary"
+         target="_blank" rel="noopener">
+        Inloggen
+      </a>
+      <a href="https://app.atablebooked.nl/aanmelden"
+         class="btn btn-primary"
+         data-mobile-link>
+        Start gratis
+      </a>
+    </div>
+
+    <!-- Taalwisselaar (mobiel) -->
+    <div class="nav-mobile-lang"
+         role="navigation"
+         aria-label="Taal kiezen">
+      <span class="nav-mobile-lang-item active"
+            aria-current="true">
+        <span aria-hidden="true">🇳🇱</span> NL
+      </span>
+      <a href="/en/"
+         class="nav-mobile-lang-item"
+         hreflang="en">
+        <span aria-hidden="true">🇬🇧</span> EN
+      </a>
+      <a href="/de/"
+         class="nav-mobile-lang-item"
+         hreflang="de">
+        <span aria-hidden="true">🇩🇪</span> DE
+      </a>
+    </div>
+  </div>
+
+
+  <!-- HERO -->
+  <section class="subpage-hero"
+           aria-label="Privacybeleid">
+    <div class="container">
+      <div class="subpage-hero-inner">
+        <nav aria-label="Breadcrumb">
+          <div class="breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep"
+                  aria-hidden="true">/</span>
+            <span class="breadcrumb-current">
+              Privacybeleid
+            </span>
+          </div>
+        </nav>
+        <p class="label fade-in">Juridisch</p>
+        <div class="divider centered fade-in"
+             aria-hidden="true"></div>
+        <h1 class="display-2 fade-up">
+          Privacybeleid
+        </h1>
+        <p class="lead fade-up stagger-1">
+          Laatst bijgewerkt: juni 2026
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- INHOUD -->
+  <section class="section bg-white"
+           aria-label="Privacybeleid inhoud">
+    <div class="container">
+      <div class="article-content">
+        <div class="article-body">
+
+          <p>
+            ATableBooked, gevestigd in Nederland
+            en ingeschreven bij de Kamer van
+            Koophandel onder nummer
+            <strong>[PLACEHOLDER KVK]</strong>,
+            hecht grote waarde aan de bescherming
+            van persoonsgegevens. In dit
+            privacybeleid leggen wij uit welke
+            gegevens wij verwerken, waarom, en
+            welke rechten u heeft.
+          </p>
+
+          <h2>1. Wie zijn wij?</h2>
+          <p>
+            ATableBooked is een softwareplatform
+            dat reserveringssystemen levert aan
+            restaurants. Wij zijn de
+            verwerkingsverantwoordelijke voor
+            de gegevens van onze klanten
+            (restauranthouders). Voor de
+            persoonsgegevens van restaurantgasten
+            treedt de restauranthouder op als
+            verwerkingsverantwoordelijke en
+            ATableBooked als verwerker.
+          </p>
+          <p>
+            Contactgegevens:<br>
+            ATableBooked<br>
+            E-mail:
+            <a href="mailto:hallo@atablebooked.nl">
+              hallo@atablebooked.nl
+            </a><br>
+            Adres: <strong>[PLACEHOLDER]</strong>
+          </p>
+
+          <h2>2. Welke gegevens verwerken wij?</h2>
+
+          <h3>Van restauranthouders (klanten)</h3>
+          <ul>
+            <li>Naam en contactgegevens
+                (e-mailadres, telefoonnummer)</li>
+            <li>Bedrijfsgegevens
+                (restaurantnaam, KVK-nummer,
+                BTW-nummer)</li>
+            <li>Inloggegevens
+                (versleuteld opgeslagen)</li>
+            <li>Betalingsgegevens
+                (verwerkt via Mollie;
+                wij slaan geen
+                betaalkaartgegevens op)</li>
+            <li>Gebruiksdata van het platform
+                (logs, acties, instellingen)</li>
+          </ul>
+
+          <h3>Van restaurantgasten
+              (via restauranthouders)</h3>
+          <ul>
+            <li>Naam en e-mailadres</li>
+            <li>Telefoonnummer
+                (indien opgegeven)</li>
+            <li>Reserveringsgegevens
+                (datum, tijd, aantal personen,
+                bijzonderheden)</li>
+            <li>Eventueel: dieetwensen
+                of allergieën</li>
+          </ul>
+
+          <h2>3. Waarom verwerken wij deze gegevens?</h2>
+          <ul>
+            <li>Om de dienst te kunnen leveren
+                (uitvoering overeenkomst)</li>
+            <li>Om reserveringsbevestigingen
+                en herinneringen te sturen
+                (gerechtvaardigd belang /
+                uitvoering overeenkomst)</li>
+            <li>Om facturen te kunnen opstellen
+                (wettelijke verplichting)</li>
+            <li>Om de dienst te verbeteren
+                en technische problemen
+                op te lossen (gerechtvaardigd
+                belang)</li>
+            <li>Om te voldoen aan wettelijke
+                verplichtingen</li>
+          </ul>
+
+          <h2>4. Hoe lang bewaren wij uw gegevens?</h2>
+          <p>
+            Wij bewaren persoonsgegevens niet
+            langer dan noodzakelijk:
+          </p>
+          <ul>
+            <li>Klantgegevens: zolang de
+                overeenkomst loopt en daarna
+                maximaal 7 jaar
+                (fiscale bewaarplicht)</li>
+            <li>Reserveringsgegevens van gasten:
+                maximaal 2 jaar na de laatste
+                reservering, tenzij de
+                restauranthouder anders beslist</li>
+            <li>Logs en gebruiksdata:
+                maximaal 12 maanden</li>
+          </ul>
+
+          <h2>5. Delen wij uw gegevens?</h2>
+          <p>
+            Wij delen uw gegevens niet met
+            derden voor commerciële doeleinden.
+            Wij maken wel gebruik van de
+            volgende verwerkers:
+          </p>
+          <ul>
+            <li><strong>Render</strong>
+                — hosting (VS/EU)</li>
+            <li><strong>Resend</strong>
+                — e-mailverzending</li>
+            <li><strong>Mollie</strong>
+                — betalingsverwerking</li>
+            <li><strong>Cloudflare R2</strong>
+                — bestandsopslag</li>
+          </ul>
+          <p>
+            Met alle verwerkers hebben wij
+            een verwerkersovereenkomst gesloten.
+            Gegevens worden niet buiten de
+            Europese Economische Ruimte
+            overgedragen zonder passende
+            waarborgen.
+          </p>
+
+          <h2>6. Uw rechten</h2>
+          <p>
+            Op grond van de AVG heeft u
+            de volgende rechten:
+          </p>
+          <ul>
+            <li>Recht op inzage in uw gegevens</li>
+            <li>Recht op correctie van
+                onjuiste gegevens</li>
+            <li>Recht op verwijdering
+                (&ldquo;recht op
+                vergetelheid&rdquo;)</li>
+            <li>Recht op beperking van
+                de verwerking</li>
+            <li>Recht op dataportabiliteit</li>
+            <li>Recht van bezwaar</li>
+          </ul>
+          <p>
+            U kunt uw rechten uitoefenen door
+            een e-mail te sturen naar
+            <a href="mailto:hallo@atablebooked.nl">
+              hallo@atablebooked.nl
+            </a>.
+            Wij reageren binnen 30 dagen.
+          </p>
+          <p>
+            U heeft ook het recht om een klacht
+            in te dienen bij de Autoriteit
+            Persoonsgegevens:
+            <a href="https://www.autoriteitpersoonsgegevens.nl"
+               target="_blank"
+               rel="noopener noreferrer">
+              autoriteitpersoonsgegevens.nl
+            </a>.
+          </p>
+
+          <h2>7. Cookies</h2>
+          <p>
+            Wij gebruiken alleen functioneel
+            noodzakelijke cookies voor het
+            functioneren van het platform
+            (sessiebeheer, inlogstatus).
+            Wij gebruiken geen
+            trackingcookies of cookies voor
+            advertentiedoeleinden.
+          </p>
+
+          <h2>8. Beveiliging</h2>
+          <p>
+            Wij nemen passende technische
+            en organisatorische maatregelen
+            om uw gegevens te beschermen,
+            waaronder versleutelde verbindingen
+            (HTTPS/TLS), gehashte wachtwoorden
+            en beperkte toegang tot
+            productiesystemen.
+          </p>
+
+          <h2>9. Wijzigingen</h2>
+          <p>
+            Wij kunnen dit privacybeleid
+            van tijd tot tijd aanpassen.
+            Wij informeren u over wezenlijke
+            wijzigingen via e-mail.
+            De meest actuele versie staat
+            altijd op deze pagina.
+          </p>
+
+          <h2>10. Contact</h2>
+          <p>
+            Heeft u vragen over dit
+            privacybeleid? Neem contact op via
+            <a href="mailto:hallo@atablebooked.nl">
+              hallo@atablebooked.nl
+            </a>.
+          </p>
+
+          <div class="vs-disclaimer"
+               style="margin-top:var(--space-10);">
+            &#8505; <strong>Disclaimer:</strong>
+            Dit privacybeleid is opgesteld als
+            template en geeft geen juridisch
+            advies. ATableBooked adviseert
+            de eigenaar om dit document te
+            laten controleren door een
+            juridisch adviseur voordat het
+            in gebruik wordt genomen.
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span style="width:8px;height:8px;
+                         border-radius:50%;
+                         background:var(--color-gold);
+                         display:inline-block;
+                         flex-shrink:0;"
+                  aria-hidden="true"></span>
+            ATableBooked
+          </div>
+          <p>Het slimste reserveringssysteem voor
+          Nederlandse restaurants. Geen commissie,
+          altijd eerlijk geprijsd.</p>
+          <div class="footer-social"
+               aria-label="Social media">
+            <a href="https://linkedin.com/company/atablebooked"
+               class="footer-social-link"
+               target="_blank" rel="noopener"
+               aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4
+                         v-7a2 2 0 0 0-2-2 2 2 0 0
+                         0-2 2v7h-4v-7a6 6 0 0 1
+                         6-6z"></path>
+                <rect x="2" y="9" width="4"
+                      height="12"></rect>
+                <circle cx="4" cy="4" r="2">
+                </circle>
+              </svg>
+            </a>
+            <a href="https://instagram.com/atablebooked"
+               class="footer-social-link"
+               target="_blank" rel="noopener"
+               aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor"
+                   stroke-width="1.75"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+                <rect x="2" y="2" width="20"
+                      height="20" rx="5" ry="5">
+                </rect>
+                <path d="M16 11.37A4 4 0 1 1
+                         12.63 8 4 4 0 0 1 16
+                         11.37z"></path>
+                <line x1="17.5" y1="6.5"
+                      x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Product</div>
+          <nav aria-label="Product navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/functies/"
+                     class="footer-link">
+                     Functies</a></li>
+              <li><a href="/prijzen/"
+                     class="footer-link">
+                     Prijzen</a></li>
+              <li><a href="/demo/"
+                     class="footer-link">
+                     Demo aanvragen</a></li>
+              <li><a href="https://app.atablebooked.nl/aanmelden"
+                     class="footer-link">
+                     Gratis starten</a></li>
+              <li><a href="https://app.atablebooked.nl/login"
+                     class="footer-link"
+                     target="_blank" rel="noopener">
+                     Inloggen</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Bedrijf</div>
+          <nav aria-label="Bedrijf navigatie">
+            <ul class="footer-links" role="list">
+              <li><a href="/over/"
+                     class="footer-link">
+                     Over ons</a></li>
+              <li><a href="/blog/"
+                     class="footer-link">Blog</a></li>
+              <li><a href="mailto:hallo@atablebooked.nl"
+                     class="footer-link">
+                     Contact</a></li>
+              <li><a href="/privacy/"
+                     class="footer-link">
+                     Privacybeleid</a></li>
+              <li><a href="/algemene-voorwaarden/"
+                     class="footer-link">
+                     Algemene voorwaarden</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">
+            Vergelijkingen
+          </div>
+          <nav aria-label="Vergelijkingen">
+            <ul class="footer-links" role="list">
+              <li>
+                <a href="/vergelijking/vs-formitable/"
+                   class="footer-link">
+                   vs Formitable</a></li>
+              <li>
+                <a href="/vergelijking/vs-thefork/"
+                   class="footer-link">
+                   vs TheFork</a></li>
+              <li>
+                <a href="/vergelijking/vs-zenchef/"
+                   class="footer-link">
+                   vs Zenchef</a></li>
+              <li><a href="/vergelijking/vs-iens/"
+                     class="footer-link">
+                     vs IENS</a></li>
+              <li>
+                <a href="/vergelijking/vs-weserve/"
+                   class="footer-link">
+                   vs WeServe</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          &copy; 2026 ATableBooked
+          &nbsp;&middot;&nbsp;
+          Gemaakt met &#10084;&#65039; in
+          Nederland &#127475;&#127473;
+        </div>
+        <div class="footer-bottom-right">
+          <a href="/privacy/"
+             class="footer-legal-link">
+            Privacybeleid
+          </a>
+          <a href="/algemene-voorwaarden/"
+             class="footer-legal-link">
+            Algemene voorwaarden
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/pricing.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+</html>

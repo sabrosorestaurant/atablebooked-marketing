@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64"
+     width="64" height="64">
+
+  <!-- Achtergrond -->
+  <rect width="64" height="64" rx="14"
+        fill="#1A1816"/>
+
+  <!-- Gouden accent cirkel -->
+  <circle cx="32" cy="32" r="24"
+          fill="none"
+          stroke="#C9A96E"
+          stroke-width="2"
+          opacity="0.35"/>
+
+  <!-- Gouden vul-cirkel klein -->
+  <circle cx="32" cy="32" r="4"
+          fill="#C9A96E"/>
+
+  <!-- "A" letter -->
+  <text x="32" y="38"
+        font-family="Georgia, serif"
+        font-size="22"
+        font-weight="700"
+        fill="#C9A96E"
+        text-anchor="middle"
+        letter-spacing="-1">A</text>
+
+</svg>

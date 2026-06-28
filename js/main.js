@@ -111,6 +111,11 @@
     addHoverAll('.vs-table tbody tr', 'hover');
     addHoverAll('.blog-card');
     addHoverAll('.sidebar-related-item');
+
+    /* Feature vergelijkingstabel */
+    addHoverAll('.ft-row', 'hover');
+    addHoverAll('.ft-plan-cta-outline',
+                'hover');
   }
 
 

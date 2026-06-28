@@ -1,0 +1,141 @@
+/* ============================================
+   ATableBooked — Homepage stijlen
+   Versie: 1.0
+   Afhankelijk van: design-system.css
+                    components.css
+   ============================================ */
+
+
+/* ════════════════════════════════════
+   HERO SECTIE
+   ════════════════════════════════════ */
+
+.hero-section {
+  padding-top: calc(var(--nav-height) + var(--space-16));
+  padding-bottom: var(--space-20);
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    padding-top: calc(var(--nav-height) + var(--space-20));
+    padding-bottom: var(--space-32);
+  }
+}
+
+.hero-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-6);
+}
+
+.hero-badge-wrap {
+  margin-bottom: var(--space-2);
+}
+
+.hero-headline {
+  max-width: 780px;
+}
+
+.hero-headline-accent {
+  display: block;
+  color: var(--color-gold);
+}
+
+.hero-subheadline {
+  max-width: 580px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-cta {
+  margin-top: var(--space-2);
+}
+
+.hero-trust {
+  margin-top: var(--space-2);
+  padding: 0;
+}
+
+.hero-mockup {
+  width: 100%;
+  margin-top: var(--space-12);
+  position: relative;
+}
+
+/* Subtiel gloed effect onder mockup */
+.hero-mockup::after {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 60%;
+  height: 80px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(201, 169, 110, 0.20) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .hero-mockup {
+    margin-top: var(--space-16);
+  }
+}
+
+
+/* ════════════════════════════════════
+   STATISTIEKEN SECTIE
+   ════════════════════════════════════ */
+
+.stats-section {
+  position: relative;
+}
+
+.stats-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-beige-dark) 20%,
+    var(--color-beige-dark) 80%,
+    transparent
+  );
+}
+
+.stats-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-beige-dark) 20%,
+    var(--color-beige-dark) 80%,
+    transparent
+  );
+}
